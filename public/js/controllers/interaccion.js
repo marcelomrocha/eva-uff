@@ -180,6 +180,7 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
     switch ($scope.modal) {
       case 'emotion':
         node.push(Object.assign(tempobj, { emotion: $scope.emocion, level: parseInt($scope.level), speed: $scope.velocidad, color: color[$scope.emocion] }));
+        console.log("Emotionsssssssssss");
         break;
       case "speak":
         node.push(Object.assign(tempobj, { text: $scope.texto }));

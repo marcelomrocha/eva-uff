@@ -1,5 +1,27 @@
 'use strict';
 
+// cliente para lampada xiaomi
+var net = require('net');
+var client_lampada = new net.Socket();
+//192.168.1.105 55443 IP e Porta da lampada
+client_lampada.connect(55443, '192.168.1.105', function() {
+	console.log('Lampada conectada');
+    // liga lampada
+    //client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 1000]}\r\n');
+	// seta para cor branca
+	client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
+});
+
+client_lampada.on('data', function(data) {
+	console.log('Received: ' + data);
+});
+
+client_lampada.on('close', function() {
+	console.log('Connection closed');
+	client_lampada.destroy(); // kill client after server's response
+});
+
+
 /* Cognitive services modules */
 const TextToSpeechV1 = require('ibm-watson/text-to-speech/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
@@ -332,13 +354,18 @@ class SocialRobot {
     send.eyes(json);
     switch (emotion) {
       case 'ini':
-        if (leds) {
+        if (leds) {teste
           this.ledsanimstop();
         }
         if (lastlevel >= 1) {
           this.movement('c');
         }
+        // liga a lampada
+		    client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
+		    // luz branca
+		    client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
         break;
+
       case 'sad':
         if (leds || level >= 2) {
           this.ledsanim('sad_v2');
@@ -349,7 +376,10 @@ class SocialRobot {
         if (level >= 2) {
           this.movement('S');
         }
+        // luz azul
+		    client_lampada.write('{"id":1,"method":"set_rgb","params":[13311, "smooth", 1000]}\r\n');
         break;
+
       case 'anger':
         if (leds || level >= 2) {
           this.ledsanim('anger_v2');
@@ -357,7 +387,10 @@ class SocialRobot {
         if (level >= 1) {
           this.movement('a');
         }
+        // luz vermelha
+		    client_lampada.write('{"id":1,"method":"set_rgb","params":[16711680, "smooth", 1000]}\r\n');
         break;
+
       case 'joy':
         if (leds || level >= 2) {
           this.ledsanim('joy_v2');
@@ -365,7 +398,10 @@ class SocialRobot {
         if (level >= 1) {
           this.movement('U');
         }
+        // luz amarela
+		    client_lampada.write('{"id":1,"method":"set_rgb","params":[16774912, "smooth", 1000]}\r\n');
         break;
+
       case 'surprise':
         if (leds) {
           var animation = spawn('./leds/joy_v2');

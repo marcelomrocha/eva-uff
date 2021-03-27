@@ -4495,22 +4495,269 @@
       }
     },
     {
-      "_id": "6e1a228a-5be4-4c9e-a721-97b01f3dffd4",
-      "nombre": "teste_luz",
+      "_id": "b6ece2d5-d545-4620-b29f-489d5f54a35d",
+      "nombre": "teste_luz_2",
       "data": {
         "node": [
           {
-            "key": 1616870511386,
-            "name": "Emoción_0",
+            "key": 1616881240162,
+            "name": "Voz_1",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 625
+          },
+          {
+            "key": 1616881282427,
+            "name": "Hablar_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Olá pessoal! Eu sou o robô EVA. Posso me expressar através do olhar, posso falar, e minhas expressões são representadas também pelas cores.",
+            "__gohashid": 717
+          },
+          {
+            "key": 1616881341335,
+            "name": "Hablar_3",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vou começar acendendo a luz!",
+            "__gohashid": 840
+          },
+          {
+            "key": 1616881421363,
+            "name": "Hablar_5",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Ótimo! Agora já posso te ver melhor!",
+            "__gohashid": 1223
+          },
+          {
+            "key": 1616881492597,
+            "name": "Hablar_6",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Quando fico triste, o meu olhar muda, e a cor do ambiente fica azul.",
+            "__gohashid": 1488
+          },
+          {
+            "key": 1616881500866,
+            "name": "Emoción_7",
             "type": "emotion",
             "color": "lightblue",
             "isGroup": false,
             "emotion": "sad",
             "level": 0,
-            "__gohashid": 530
+            "__gohashid": 1802
+          },
+          {
+            "key": 1616881797722,
+            "name": "Emoción_11",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "speed": 9,
+            "__gohashid": 12149
+          },
+          {
+            "key": 1616881882478,
+            "name": "Tiempo_12",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 21907
+          },
+          {
+            "key": 1616881960185,
+            "name": "Tiempo_13",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 23926
+          },
+          {
+            "key": 1616881995446,
+            "name": "Hablar_14",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Quando estou com raiva, tudo fica vermelho!",
+            "__gohashid": 25900
+          },
+          {
+            "key": 1616882021738,
+            "name": "Emoción_15",
+            "type": "emotion",
+            "color": "red",
+            "isGroup": false,
+            "emotion": "anger",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 26664
+          },
+          {
+            "key": 1616882028773,
+            "name": "Tiempo_16",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 27223
+          },
+          {
+            "key": 1616882074062,
+            "name": "Hablar_17",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Quando estou feliz, fica tudo amarelo!",
+            "__gohashid": 27831
+          },
+          {
+            "key": 1616882086605,
+            "name": "Emoción_18",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 28488
+          },
+          {
+            "key": 1616882094403,
+            "name": "Tiempo_19",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 29194
+          },
+          {
+            "key": 1616882241650,
+            "name": "Hablar_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Tudo bem que esse amarelo está mais para verde, mas, vamos resolver isso.",
+            "__gohashid": 30966
+          },
+          {
+            "key": 1616882326972,
+            "name": "Emoción_22",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 32405
+          },
+          {
+            "key": 1616882351563,
+            "name": "Hablar_23",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Por hoje é só pessoal! Até mais!",
+            "__gohashid": 33258
           }
         ],
-        "link": []
+        "link": [
+          {
+            "from": 1616881240162,
+            "to": 1616881282427,
+            "__gohashid": 719
+          },
+          {
+            "from": 1616881282427,
+            "to": 1616881341335,
+            "__gohashid": 842
+          },
+          {
+            "from": 1616881421363,
+            "to": 1616881492597,
+            "__gohashid": 1490
+          },
+          {
+            "from": 1616881492597,
+            "to": 1616881500866,
+            "__gohashid": 1804
+          },
+          {
+            "__gohashid": 16762,
+            "from": 1616881341335,
+            "to": 1616881797722
+          },
+          {
+            "from": 1616881797722,
+            "to": 1616881882478,
+            "__gohashid": 21909
+          },
+          {
+            "__gohashid": 23002,
+            "from": 1616881882478,
+            "to": 1616881421363
+          },
+          {
+            "__gohashid": 25346,
+            "from": 1616881500866,
+            "to": 1616881960185
+          },
+          {
+            "from": 1616881960185,
+            "to": 1616881995446,
+            "__gohashid": 25902
+          },
+          {
+            "from": 1616881995446,
+            "to": 1616882021738,
+            "__gohashid": 26666
+          },
+          {
+            "from": 1616882021738,
+            "to": 1616882028773,
+            "__gohashid": 27225
+          },
+          {
+            "from": 1616882028773,
+            "to": 1616882074062,
+            "__gohashid": 27833
+          },
+          {
+            "from": 1616882074062,
+            "to": 1616882086605,
+            "__gohashid": 28490
+          },
+          {
+            "from": 1616882086605,
+            "to": 1616882094403,
+            "__gohashid": 29196
+          },
+          {
+            "__gohashid": 31795,
+            "from": 1616882094403,
+            "to": 1616882241650
+          },
+          {
+            "from": 1616882241650,
+            "to": 1616882326972,
+            "__gohashid": 32407
+          },
+          {
+            "from": 1616882326972,
+            "to": 1616882351563,
+            "__gohashid": 33260
+          }
+        ]
       }
     }
   ],

@@ -199,14 +199,18 @@ index.get('/interaccion/iniciaremocion', function (req, res) {
 	//ini
 	if (req.query.e == 0) {
 		social.emotions('ini', 0);
+		// desliga a lampada
+		client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
 		// luz branca
 		client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
 	}
 	//exit
-	if (req.query.e == 10) {
+	if (req.query.e == 10) { 
 		social.emotions('exit', 0);
 		// luz branca
 		client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
+		// desliga a lampada
+		client_lampada.write('{"id":1, "method":"set_power","params":["off", "smooth", 2000]}\r\n');
 	}
 	console.log(req.query.e);
 	res.status(200).jsonp();
