@@ -105,5 +105,6 @@ dist
 
 credencial.json
 git.sh
-temp/*
+# sempre sera' preciso criar essa pasta
+temp/* 
 public/js/go.js
