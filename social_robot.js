@@ -244,6 +244,7 @@ class SocialRobot {
         config: {
           encoding: 'LINEAR16',
           sampleRateHertz: sampleRateHertz,
+          // define a linguagem para o google cloud
           languageCode: 'pt-BR', // es-MX (mexico)
         },
         interimResults: false,
