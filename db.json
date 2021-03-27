@@ -4493,6 +4493,25 @@
           }
         ]
       }
+    },
+    {
+      "_id": "6e1a228a-5be4-4c9e-a721-97b01f3dffd4",
+      "nombre": "teste_luz",
+      "data": {
+        "node": [
+          {
+            "key": 1616870511386,
+            "name": "Emoción_0",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "emotion": "sad",
+            "level": 0,
+            "__gohashid": 530
+          }
+        ],
+        "link": []
+      }
     }
   ],
   "voice": [
