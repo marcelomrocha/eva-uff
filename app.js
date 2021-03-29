@@ -1,26 +1,3 @@
-// cliente para lampada xiaomi
-var net = require('net');
-var client_lampada = new net.Socket();
-//192.168.1.105 55443 IP e Porta da lampada
-client_lampada.connect(55443, '192.168.1.105', function() {
-	console.log('Lampada conectada');
-    // liga lampada
-    //client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 1000]}\r\n');
-	// seta para cor branca
-	client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
-});
-
-client_lampada.on('data', function(data) {
-	console.log('Received: ' + data);
-});
-
-client_lampada.on('close', function() {
-	console.log('Connection closed');
-	client_lampada.destroy(); // kill client after server's response
-});
-
-
-
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -143,74 +120,48 @@ index.get('/interaccion/iniciaremocion', function (req, res) {
 	if (req.query.e == 1) {
 		lastlevel = 0;
 		social.emotions('sad', 0);
-		// luz azul
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[13311, "smooth", 1000]}\r\n');
 	}
 	if (req.query.e == 2) {
 		lastlevel = 1;
 		social.emotions('sad', 1);
-		// luz azul
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[13311, "smooth", 1000]}\r\n');
 	}
 	if (req.query.e == 3) {
 		lastlevel = 2;
 		social.emotions('sad', 2);
-		// luz azul
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[13311, "smooth", 1000]}\r\n');
 	}
 	//anger
 	if (req.query.e == 4) {
 		lastlevel = 0;
 		social.emotions('anger', 0);
-		// luz vermelha
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[16711680, "smooth", 1000]}\r\n');
 	}
 	if (req.query.e == 5) {
 		lastlevel = 1;
 		social.emotions('anger', 1);
-		// luz vermelha
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[16711680, "smooth", 1000]}\r\n');
 	}
 	if (req.query.e == 6) {
 		lastlevel = 2;
 		social.emotions('anger', 2);
-		// luz vermelha
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[16711680, "smooth", 1000]}\r\n');
 	}
 	//joy
 	if (req.query.e == 7) {
 		lastlevel = 0;
 		social.emotions('joy', 0);
-		// luz amarela
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[16774912, "smooth", 1000]}\r\n');
 	}
 	if (req.query.e == 8) {
 		lastlevel = 1;
 		social.emotions('joy', 1);
-		// luz amarela
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[16774912, "smooth", 1000]}\r\n');
 	}
 	if (req.query.e == 9) {
 		lastlevel = 1;
 		social.emotions('joy', 2);
-		// luz amarela
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[16774912, "smooth", 1000]}\r\n');
 	}
 	//ini
 	if (req.query.e == 0) {
 		social.emotions('ini', 0);
-		// desliga a lampada
-		client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
-		// luz branca
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
 	}
 	//exit
 	if (req.query.e == 10) { 
 		social.emotions('exit', 0);
-		// luz branca
-		client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
-		// desliga a lampada
-		client_lampada.write('{"id":1, "method":"set_power","params":["off", "smooth", 2000]}\r\n');
 	}
 	console.log(req.query.e);
 	res.status(200).jsonp();

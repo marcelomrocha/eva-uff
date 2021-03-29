@@ -3,7 +3,7 @@
 // cliente para lampada xiaomi
 var net = require('net');
 var client_lampada = new net.Socket();
-//192.168.1.105 55443 IP e Porta da lampada
+//192.168.1.105 (ip fixo connfigurado no rotedor) 55443 IP e Porta da lampada
 client_lampada.connect(55443, '192.168.1.105', function() {
 	console.log('Lampada conectada');
     // liga lampada
