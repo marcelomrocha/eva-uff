@@ -4346,155 +4346,6 @@
       }
     },
     {
-      "_id": "5f786d6f-7975-455f-8509-fe001d2f09c8",
-      "nombre": "input_test2",
-      "data": {
-        "node": [
-          {
-            "key": 1616333957481,
-            "name": "Voz_5",
-            "type": "voice",
-            "color": "lightblue",
-            "isGroup": false,
-            "voice": "pt-BR_IsabelaV3Voice",
-            "__gohashid": 5854
-          },
-          {
-            "key": 1616334025531,
-            "name": "Hablar_8",
-            "type": "speak",
-            "color": "lightblue",
-            "isGroup": false,
-            "text": "Muito prazer em te conhecer $",
-            "__gohashid": 8480
-          },
-          {
-            "key": 1616334375573,
-            "name": "Escuchar_9",
-            "type": "listen",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "opt": "",
-            "__gohashid": 10618
-          },
-          {
-            "key": 1616343548713,
-            "name": "Hablar_17",
-            "type": "speak",
-            "color": "lightblue",
-            "isGroup": false,
-            "text": "Olá. Boa tarde!",
-            "__gohashid": 4631
-          },
-          {
-            "key": 1616343586415,
-            "name": "Hablar_18",
-            "type": "speak",
-            "color": "lightblue",
-            "isGroup": false,
-            "text": "Qual o seu nome?",
-            "__gohashid": 7388
-          },
-          {
-            "key": 1616343673175,
-            "name": "Hablar_20",
-            "type": "speak",
-            "color": "lightblue",
-            "isGroup": false,
-            "text": "Vamos ouvir uma música?",
-            "__gohashid": 11006
-          },
-          {
-            "key": 1616343727485,
-            "name": "Escuchar_21",
-            "type": "listen",
-            "color": "lightblue",
-            "isGroup": false,
-            "opt": "",
-            "__gohashid": 12857
-          },
-          {
-            "key": 1616343782688,
-            "name": "Emoción_22",
-            "type": "emotion",
-            "color": "lightgray",
-            "isGroup": false,
-            "emotion": "ini",
-            "level": 0,
-            "__gohashid": 13378
-          },
-          {
-            "key": 1616343828176,
-            "name": "Emoción_23",
-            "type": "emotion",
-            "color": "lightyellow",
-            "isGroup": false,
-            "emotion": "joy",
-            "level": 0,
-            "__gohashid": 14748
-          },
-          {
-            "key": 1616344500713,
-            "name": "Audio_27",
-            "type": "sound",
-            "color": "lightblue",
-            "isGroup": false,
-            "src": "besamemucho_curta",
-            "wait": false,
-            "__gohashid": 24205
-          }
-        ],
-        "link": [
-          {
-            "__gohashid": 4946,
-            "from": 1616333957481,
-            "to": 1616343548713
-          },
-          {
-            "from": 1616343548713,
-            "to": 1616343586415,
-            "__gohashid": 7391
-          },
-          {
-            "__gohashid": 8733,
-            "from": 1616343586415,
-            "to": 1616334375573
-          },
-          {
-            "__gohashid": 12214,
-            "from": 1616334025531,
-            "to": 1616343673175
-          },
-          {
-            "from": 1616343673175,
-            "to": 1616343727485,
-            "__gohashid": 12860
-          },
-          {
-            "from": 1616343727485,
-            "to": 1616343782688,
-            "__gohashid": 13381
-          },
-          {
-            "__gohashid": 15532,
-            "from": 1616334375573,
-            "to": 1616343828176
-          },
-          {
-            "__gohashid": 17075,
-            "from": 1616343828176,
-            "to": 1616334025531
-          },
-          {
-            "from": 1616343782688,
-            "to": 1616344500713,
-            "__gohashid": 24208
-          }
-        ]
-      }
-    },
-    {
       "_id": "b6ece2d5-d545-4620-b29f-489d5f54a35d",
       "nombre": "teste_luz_2",
       "data": {
@@ -4667,8 +4518,9 @@
             "type": "speak",
             "color": "lightblue",
             "isGroup": false,
+            "group": "",
             "text": "Por hoje é só pessoal! Até mais!",
-            "__gohashid": 33258
+            "__gohashid": 9289
           }
         ],
         "link": [
@@ -4758,6 +4610,26 @@
             "__gohashid": 33260
           }
         ]
+      }
+    },
+    {
+      "_id": "dfabb62b-cd37-409a-b1e4-5f5bf201c4a7",
+      "nombre": "estudo",
+      "data": {
+        "node": [
+          {
+            "key": 1617368528843,
+            "name": "Emoción_0",
+            "type": "emotion",
+            "color": "red",
+            "isGroup": false,
+            "group": "",
+            "emotion": "anger",
+            "level": 2,
+            "__gohashid": 1062
+          }
+        ],
+        "link": []
       }
     }
   ],

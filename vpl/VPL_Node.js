@@ -11,7 +11,7 @@ module.exports = {
         if (element.type === 'voice') {
             social.setVoice(element.voice);
         } else if (element.type === 'emotion') {
-            ProcessEmotionNode(social, element)
+            ProcessEmotionNo(social, element)
         } else if (element.type === 'speak') {
             social.ledsanimstop();
             await ProcessSpeakNode(social, evaId, element);

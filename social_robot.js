@@ -6,10 +6,10 @@ var client_lampada = new net.Socket();
 //192.168.1.105 (ip fixo connfigurado no rotedor) 55443 IP e Porta da lampada
 client_lampada.connect(55443, '192.168.1.105', function() {
 	console.log('Lampada conectada');
-    // liga lampada
-    //client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 1000]}\r\n');
+  // liga lampada
+  //client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 1000]}\r\n');
 	// seta para cor branca
-	client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
+	//client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
 });
 
 client_lampada.on('data', function(data) {
