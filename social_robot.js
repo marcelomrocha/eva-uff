@@ -13,7 +13,7 @@ client_lampada.connect(55443, '192.168.1.105', function() {
 });
 
 client_lampada.on('data', function(data) {
-	console.log('Received: ' + data);
+	console.log('Lampada respondendo: ' + data);
 });
 
 client_lampada.on('close', function() {

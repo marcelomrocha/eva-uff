@@ -4613,20 +4613,18 @@
       }
     },
     {
-      "_id": "dfabb62b-cd37-409a-b1e4-5f5bf201c4a7",
-      "nombre": "estudo",
+      "_id": "2654a42a-29ab-482d-b96b-f18f6ff6bb32",
+      "nombre": "light",
       "data": {
         "node": [
           {
-            "key": 1617368528843,
-            "name": "Emoción_0",
-            "type": "emotion",
-            "color": "red",
+            "key": 1617389283850,
+            "name": "Light_0",
+            "type": "light",
+            "color": "lightblue",
             "isGroup": false,
-            "group": "",
-            "emotion": "anger",
-            "level": 2,
-            "__gohashid": 1062
+            "state": "1",
+            "__gohashid": 530
           }
         ],
         "link": []

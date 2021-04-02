@@ -182,6 +182,30 @@
               </div>
               <!-- Modal Emocion -->
 
+              <!-- Modal Light ---------------------------------------------------------------------->
+              <div class="form-group" ng-show="modal == 'light'">
+                <label class="col-sm-2 control-label">Light</label>
+                <div class="col-sm-10">
+                  <select name="lcolor" id="" ng-model="light" class="form-control">
+                    <option value="ini">White</option>
+                    <option value="joy">Yellow</option>
+                    <option value="surprised">Green</option>
+                    <option value="sad">Blue</option>
+                    <option value="anger">Red</option>
+                  </select>
+                </div>
+              </div>
+            <div class="form-group" ng-show="modal == 'light'">
+                <label class="col-sm-2 control-label">State</label>
+                <label class="radio-inline col-sm-offset-1">
+                  <input type="radio" name="state" id="inlineRadio1" ng-model="state" value="1"> On
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="state" id="inlineRadio3" ng-model="state" value="0"> Off
+                </label>
+              </div>
+              <!-- Modal Light ---------------------------------------------------------------------->
+
               <!-- Modal Hablar -->
               <div class="form-group" ng-show="modal == 'speak'">
                 <label class="col-sm-2 control-label">Di&aacute;logo</label>

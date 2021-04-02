@@ -5,7 +5,7 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
   $scope.accion = 'Agregar';
   $scope.icon = true;
   $scope.updateid;
-  var modalname = { emotion: 'Emoción', speak: 'Hablar', listen: 'Escuchar', wait: 'Tiempo', for: 'Ciclo', if: 'Condición', mov: 'Movimiento', int: 'Interacción', script: 'Script', sound: 'Audio', led: 'Animación Led', voice: 'Voz', counter: 'Contador', api: 'Api Rest' };
+  var modalname = { emotion: 'Emoción', speak: 'Hablar', listen: 'Escuchar', wait: 'Tiempo', for: 'Ciclo', if: 'Condición', mov: 'Movimiento', int: 'Interacción', script: 'Script', sound: 'Audio', light: "Light", led: 'Animación Led', voice: 'Voz', counter: 'Contador', api: 'Api Rest' };
   var color = { joy: "lightyellow", sad: "lightblue", surprised: "lightgreen", anger: "red", ini: "lightgray" };
 
   $scope.list = function () {
@@ -179,7 +179,9 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
     let tempobj = { key: Date.now(), name: modalname[$scope.modal] + '_' + id, type: $scope.modal, color: "lightblue", isGroup: false, group: $scope.group }
     switch ($scope.modal) {
       case 'emotion':
-        node.push(Object.assign(tempobj, { emotion: $scope.emocion, level: parseInt($scope.level), speed: $scope.velocidad, color: color[$scope.emocion] }));
+        {node.push(Object.assign(tempobj, { emotion: $scope.emocion, level: parseInt($scope.level), speed: $scope.velocidad, color: color[$scope.emocion] }));
+        console.log($scope.emocion);
+        }
         break;
       case "speak":
         node.push(Object.assign(tempobj, { text: $scope.texto }));
@@ -210,7 +212,7 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
         break;
 //meu codigo
       case "light":
-          node.push(Object.assign(tempobj, { src: $scope.thesound, wait: $scope.ccommon }));
+          node.push(Object.assign(tempobj, { src: $scope.lcolor, state: $scope.state }));
         break;
       case "led":
         node.push(Object.assign(tempobj, { name: "Leds_" + id, anim: $scope.leds }));
