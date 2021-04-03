@@ -17,7 +17,6 @@ function init() {
 
     function nodeInfo(d) {  // Tooltip info for a node data object
         var str = "";
-        console.log("Exibindo texto do emotion");
         switch (d.type) {
             case 'emotion':
                 str = 'Emoción: ' + d.emotion;

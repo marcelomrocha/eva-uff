@@ -4618,14 +4618,14 @@
       "data": {
         "node": [
           {
-            "key": 1617404913970,
-            "name": "Light_19",
+            "key": 1617408461592,
+            "name": "Light_24",
             "type": "light",
             "color": "lightblue",
             "isGroup": false,
             "lcolor": "red",
-            "state": "1",
-            "__gohashid": 734
+            "state": "on",
+            "__gohashid": 710
           }
         ],
         "link": []
