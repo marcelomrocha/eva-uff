@@ -364,7 +364,7 @@ class SocialRobot {
 
           case 'yellow':
             // yellow light
-            client_lampada.write('{"id":1,"method":"set_rgb","params":[16774912, "smooth", 1000]}\r\n');
+            client_lampada.write('{"id":1,"method":"set_rgb","params":[16776960, "smooth", 1000]}\r\n');
             break;
 
           case 'blue':
@@ -374,13 +374,18 @@ class SocialRobot {
 
           case 'green': // talvez mudar a cor de verde pra rosa
             // green light
-            client_lampada.write('{"id":1,"method":"set_rgb","params":[16774912, "smooth", 1000]}\r\n');
+            client_lampada.write('{"id":1,"method":"set_rgb","params":[65280, "smooth", 1000]}\r\n');
             break;   
 
           case 'red': // talvez mudar a cor de verde pra rosa
             // red light
             client_lampada.write('{"id":1,"method":"set_rgb","params":[16711680, "smooth", 1000]}\r\n');
-            break;      
+            break;   
+
+          case 'pink': // talvez mudar a cor de verde pra rosa
+            // pink light
+            client_lampada.write('{"id":1,"method":"set_rgb","params":[16711935, "smooth", 1000]}\r\n');
+            break;   
         }
     }
   }
