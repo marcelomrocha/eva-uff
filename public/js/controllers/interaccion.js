@@ -6,7 +6,7 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
   $scope.icon = true;
   $scope.updateid;
   var modalname = { emotion: 'Emoción', speak: 'Hablar', listen: 'Escuchar', wait: 'Tiempo', for: 'Ciclo', if: 'Condición', mov: 'Movimiento', int: 'Interacción', script: 'Script', sound: 'Audio', light: "Light", led: 'Animación Led', voice: 'Voz', counter: 'Contador', api: 'Api Rest' };
-  var color = { joy: "lightyellow", sad: "lightblue", surprised: "lightgreen", anger: "lightred", ini: "lightgray" };
+  var color = { joy: "lightyellow", sad: "lightblue", surprised: "lightgreen", anger: "lightcoral", ini: "lightgray" };
 
   $scope.list = function () {
     $http.get('/api/common?db=interaccion').then(function successCallback(response) {
