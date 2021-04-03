@@ -4618,17 +4618,79 @@
       "data": {
         "node": [
           {
-            "key": 1617408461592,
-            "name": "Light_24",
+            "key": 1617411369208,
+            "name": "Light_26",
             "type": "light",
             "color": "lightblue",
             "isGroup": false,
             "lcolor": "red",
             "state": "on",
-            "__gohashid": 710
+            "__gohashid": 813
+          },
+          {
+            "key": 1617411456976,
+            "name": "Tiempo_28",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 1054
+          },
+          {
+            "key": 1617411443371,
+            "name": "Light_27",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "blue",
+            "state": "on",
+            "__gohashid": 2642
+          },
+          {
+            "key": 1617411511494,
+            "name": "Tiempo_29",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 2000,
+            "__gohashid": 2809
+          },
+          {
+            "key": 1617411526901,
+            "name": "Light_30",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "blue",
+            "state": "off",
+            "__gohashid": 4009
           }
         ],
-        "link": []
+        "link": [
+          {
+            "__gohashid": 1562,
+            "from": 1617411369208,
+            "to": 1617411456976
+          },
+          {
+            "__gohashid": 2109,
+            "from": 1617411456976,
+            "to": 1617411443371
+          },
+          {
+            "__gohashid": 3627,
+            "from": 1617411443371,
+            "to": 1617411511494
+          },
+          {
+            "from": 1617411511494,
+            "to": 1617411526901,
+            "__gohashid": 4012
+          }
+        ]
       }
     }
   ],

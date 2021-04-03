@@ -345,6 +345,46 @@ class SocialRobot {
     return emotional;
   }
 
+  light(lcolor, state){
+    switch(state){
+      case 'off':
+        // light off
+        client_lampada.write('{"id":1, "method":"set_power","params":["off", "smooth", 100]}\r\n');
+        break;
+
+      case 'on':
+        // light on
+        client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
+
+        switch(lcolor){
+          case 'white':
+            // white light
+            client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
+            break;
+
+          case 'yellow':
+            // yellow light
+            client_lampada.write('{"id":1,"method":"set_rgb","params":[16774912, "smooth", 1000]}\r\n');
+            break;
+
+          case 'blue':
+            // blue light
+            client_lampada.write('{"id":1,"method":"set_rgb","params":[13311, "smooth", 1000]}\r\n');
+            break;
+
+          case 'green': // talvez mudar a cor de verde pra rosa
+            // green light
+            client_lampada.write('{"id":1,"method":"set_rgb","params":[16774912, "smooth", 1000]}\r\n');
+            break;   
+
+          case 'red': // talvez mudar a cor de verde pra rosa
+            // red light
+            client_lampada.write('{"id":1,"method":"set_rgb","params":[16711680, "smooth", 1000]}\r\n');
+            break;      
+        }
+    }
+  }
+  
   emotions(emotion, level, leds, speed) {
     if (!emotional) {
       return;
@@ -360,10 +400,6 @@ class SocialRobot {
         if (lastlevel >= 1) {
           this.movement('c');
         }
-        // liga a lampada
-		    client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
-		    // luz branca
-		    client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
         break;
 
       case 'sad':
@@ -376,8 +412,6 @@ class SocialRobot {
         if (level >= 2) {
           this.movement('S');
         }
-        // luz azul
-		    client_lampada.write('{"id":1,"method":"set_rgb","params":[13311, "smooth", 1000]}\r\n');
         break;
 
       case 'anger':
@@ -387,8 +421,6 @@ class SocialRobot {
         if (level >= 1) {
           this.movement('a');
         }
-        // luz vermelha
-		    client_lampada.write('{"id":1,"method":"set_rgb","params":[16711680, "smooth", 1000]}\r\n');
         break;
 
       case 'joy':
@@ -398,8 +430,6 @@ class SocialRobot {
         if (level >= 1) {
           this.movement('U');
         }
-        // luz amarela
-		    client_lampada.write('{"id":1,"method":"set_rgb","params":[16774912, "smooth", 1000]}\r\n');
         break;
 
       case 'surprise':
