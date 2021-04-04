@@ -353,40 +353,12 @@ class SocialRobot {
         break;
 
       case 'on':
+        // seleciona a cor determinada (converte de hex para dec)
+        client_lampada.write('{"id":1,"method":"set_rgb","params":[' + parseInt(lcolor.substr(1), 16) + ', "smooth", 1000]}\r\n');
         // light on
         client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
-
-        switch(lcolor){
-          case 'white':
-            // white light
-            client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
-            break;
-
-          case 'yellow':
-            // yellow light
-            client_lampada.write('{"id":1,"method":"set_rgb","params":[16776960, "smooth", 1000]}\r\n');
-            break;
-
-          case 'blue':
-            // blue light
-            client_lampada.write('{"id":1,"method":"set_rgb","params":[13311, "smooth", 1000]}\r\n');
-            break;
-
-          case 'green': // talvez mudar a cor de verde pra rosa
-            // green light
-            client_lampada.write('{"id":1,"method":"set_rgb","params":[65280, "smooth", 1000]}\r\n');
-            break;   
-
-          case 'red': // talvez mudar a cor de verde pra rosa
-            // red light
-            client_lampada.write('{"id":1,"method":"set_rgb","params":[16711680, "smooth", 1000]}\r\n');
-            break;   
-
-          case 'pink': // talvez mudar a cor de verde pra rosa
-            // pink light
-            client_lampada.write('{"id":1,"method":"set_rgb","params":[16711935, "smooth", 1000]}\r\n');
-            break;   
-        }
+        break;
+        
     }
   }
   

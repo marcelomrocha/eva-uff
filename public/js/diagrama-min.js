@@ -12,7 +12,7 @@ function init(){
                     sorting:go.TreeLayout.SortingAscending})})).nodeTemplate=e(
                         go.Node,"Auto",
                         e(go.Shape,
-                            "Ellipse",{
+                            "RoundedRectangle",{
                             strokeWidth:1,fill:"white"
                         },{
                             portId:"",
