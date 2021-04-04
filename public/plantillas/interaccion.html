@@ -82,13 +82,13 @@
             <br />
             <div class="form-group">
               <div class="col-sm-offset-2 col-sm-10">
-                <button id="blobButton" class="btn btn-primary btn-sm">Descargar</button>
-                <button type="button" ng-show="icon" class="btn btn-primary btn-sm" ng-click="create()">Guardar</button>
-                <button type="button" ng-show="!icon" class="btn btn-primary btn-sm"
+                <button id="blobButton" class="btn btn-info btn-sm">Descargar</button>
+                <button type="button" ng-show="icon" class="btn btn-info btn-sm" ng-click="create()">Guardar</button>
+                <button type="button" ng-show="!icon" class="btn btn-info btn-sm"
                   ng-click="updatesend()">Actualizar</button>
-                <button type="button" ng-show="!icon" class="btn btn-primary btn-sm" ng-click="updatesendx()">Actualizar
+                <button type="button" ng-show="!icon" class="btn btn-info btn-sm" ng-click="updatesendx()">Actualizar
                   y Terminar</button>
-                <button type="button" class="btn btn-primary btn-sm" ng-click="actualizar()">Refrescar</button>
+                <button type="button" class="btn btn-info btn-sm" ng-click="actualizar()">Refrescar</button>
               </div>
             </div>
 
@@ -96,22 +96,22 @@
               <div class="col-sm-offset-2 col-sm-10">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" ng-click="showmodal('voice')">Voz</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('speak')">Hablar</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('listen')">Escuchar</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('emotion')">Emoci&oacute;n</button>
+                <button type="button" class="btn btn-success" ng-click="showmodal('speak')">Hablar</button>
+                <button type="button" class="btn btn-success" ng-click="showmodal('listen')">Escuchar</button>
+                <button type="button" class="btn btn-danger" ng-click="showmodal('emotion')">Emoci&oacute;n</button>
                 <button type="button" class="btn btn-primary" ng-click="showmodal('mov')">Movimiento</button>
                 <button type="button" class="btn btn-primary" ng-click="showmodal('led')">Leds</button>
                 <button type="button" class="btn btn-primary" ng-click="showmodal('sound')">Audio</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('light')">Light</button>
+                <button type="button" class="btn btn-warning" ng-click="showmodal('light')">Light</button>
                 <br>
                 <br>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('for')">Ciclo</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('if')">Condici&oacute;n</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('wait')">Esperar</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('int')">Interacci&oacute;n</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('script')">Script</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('counter')">Contador</button>
-                <button type="button" class="btn btn-primary" ng-click="showmodal('api')">Api Rest</button>
+                <button type="button" class="btn btn-dark" ng-click="showmodal('for')">Ciclo</button>
+                <button type="button" class="btn btn-dark" ng-click="showmodal('if')">Condici&oacute;n</button>
+                <button type="button" class="btn btn-dark" ng-click="showmodal('wait')">Esperar</button>
+                <button type="button" class="btn btn-dark" ng-click="showmodal('int')">Interacci&oacute;n</button>
+                <button type="button" class="btn btn-dark" ng-click="showmodal('script')">Script</button>
+                <button type="button" class="btn btn-dark" ng-click="showmodal('counter')">Contador</button>
+                <button type="button" class="btn btn-dark" ng-click="showmodal('api')">Api Rest</button>
               </div>
             </div>
           </div>
@@ -183,20 +183,18 @@
               <!-- Modal Emocion -->
 
  <!--------------- Modal Light ---------------------------------------------------------------------->
-              <div class="form-group" ng-show="modal == 'light'">
+                
+                <div class="form-group" ng-show="modal == 'light'">
                 <label class="col-sm-2 control-label">Light Color</label>
                 <div class="col-sm-10">
-                  <select name="lcolor" id="" ng-model="lcolor" class="form-control">
-                    <option value="white">White</option> <!-- ini -->
-                    <option value="yellow">Yellow</option> <!-- joy -->
-                    <option value="green">Green</option> <!-- surprised -->
-                    <option value="blue">Blue</option> <!-- sad -->
-                    <option value="red">Red</option> <!-- anger -->
-                    <option value="pink">Pink</option> <!-- pink -->
-                  </select>
+                  <!-- color_picker -->
+                  <div id="color_picker">
+                    <h5>Bootstrap Colorpicker Demo (without Bootstrap)</h1>
+                    <input type="text" name="lcolor" ng-model="lcolor"  value="" />
+                  </div>
                 </div>
               </div>
-            <div class="form-group" ng-show="modal == 'light'">
+              <div class="form-group" ng-show="modal == 'light'">
                 <label class="col-sm-2 control-label">State</label>
                 <label class="radio-inline col-sm-offset-1">
                   <input type="radio" name="state" id="inlineRadio0" ng-model="state" value="off"> Off
@@ -205,6 +203,9 @@
                   <input type="radio" name="state" id="inlineRadio1" ng-model="state" value="on" > On
                 </label>
               </div>
+              
+
+              
 <!---------------- Modal Light ---------------------------------------------------------------------->
 
               <!-- Modal Hablar -->
@@ -439,3 +440,14 @@
   </div>
   <br>
 </div>
+
+<!------------ color_picker script -------------------->
+<script>
+  $(function() {
+    $('#color_picker').colorpicker({
+      popover: false,
+      inline: true,
+      container: '#color_picker'
+    });
+  });
+</script>

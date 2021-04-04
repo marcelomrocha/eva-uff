@@ -4930,6 +4930,240 @@
           }
         ]
       }
+    },
+    {
+      "_id": "b7f988d5-5aa4-4038-8197-5503d977aa32",
+      "nombre": "Escutar",
+      "data": {
+        "node": [
+          {
+            "key": 1617485943313,
+            "name": "Escuchar_3",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "",
+            "__gohashid": 1059
+          },
+          {
+            "key": 1617485988723,
+            "name": "Voz_5",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 1327
+          },
+          {
+            "key": 1617486692546,
+            "name": "Light_7",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "blue",
+            "state": "on",
+            "__gohashid": 2347
+          },
+          {
+            "key": 1617485915977,
+            "name": "Light_1",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "white",
+            "state": "on",
+            "__gohashid": 3423
+          },
+          {
+            "key": 1617486779936,
+            "name": "Light_9",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "red",
+            "state": "on",
+            "__gohashid": 5062
+          },
+          {
+            "key": 1617487044467,
+            "name": "Condición_10",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "vermelho",
+            "opt": 4,
+            "__gohashid": 8960
+          },
+          {
+            "key": 1617487072152,
+            "name": "Condición_11",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "azul",
+            "opt": 4,
+            "__gohashid": 9816
+          },
+          {
+            "key": 1617487150406,
+            "name": "Condición_12",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "verde",
+            "opt": 4,
+            "__gohashid": 10797
+          },
+          {
+            "key": 1617487157037,
+            "name": "Light_13",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "green",
+            "state": "on",
+            "__gohashid": 11045
+          },
+          {
+            "key": 1617487655055,
+            "name": "Hablar_14",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Olá! Qual o seu nome?",
+            "__gohashid": 1137
+          },
+          {
+            "key": 1617487686974,
+            "name": "Escuchar_15",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 3413
+          },
+          {
+            "key": 1617485934061,
+            "name": "Hablar_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Olá $!, qual cor você escolhe? azul, vermelho ou verde?",
+            "__gohashid": 14501
+          },
+          {
+            "key": 1617487910244,
+            "name": "Hablar_16",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "O $ é uma bela cor! Parabéns!",
+            "__gohashid": 20749
+          }
+        ],
+        "link": [
+          {
+            "from": 1617485934061,
+            "to": 1617485943313,
+            "__gohashid": 1061
+          },
+          {
+            "__gohashid": 3745,
+            "from": 1617485988723,
+            "to": 1617485915977
+          },
+          {
+            "from": 1617485943313,
+            "to": 1617487044467,
+            "__gohashid": 8963
+          },
+          {
+            "__gohashid": 9187,
+            "from": 1617487044467,
+            "to": 1617486779936
+          },
+          {
+            "from": 1617485943313,
+            "to": 1617487072152,
+            "__gohashid": 9819
+          },
+          {
+            "__gohashid": 10058,
+            "from": 1617487072152,
+            "to": 1617486692546
+          },
+          {
+            "from": 1617485943313,
+            "to": 1617487150406,
+            "__gohashid": 10800
+          },
+          {
+            "from": 1617487150406,
+            "to": 1617487157037,
+            "__gohashid": 11048
+          },
+          {
+            "from": 1617485915977,
+            "to": 1617487655055,
+            "__gohashid": 1140
+          },
+          {
+            "from": 1617487655055,
+            "to": 1617487686974,
+            "__gohashid": 3416
+          },
+          {
+            "__gohashid": 12311,
+            "from": 1617487686974,
+            "to": 1617485934061
+          },
+          {
+            "from": 1617486779936,
+            "to": 1617487910244,
+            "__gohashid": 15134
+          },
+          {
+            "__gohashid": 15781,
+            "from": 1617487157037,
+            "to": 1617487910244
+          },
+          {
+            "__gohashid": 20525,
+            "from": 1617486692546,
+            "to": 1617487910244
+          }
+        ]
+      }
+    },
+    {
+      "_id": "ca32c345-0cf5-46c8-982f-4635df0ca9f1",
+      "nombre": "color_picker",
+      "data": {
+        "node": [
+          {
+            "key": 1617570098799,
+            "name": "Light_1",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "lcolor": "#CA0F0F",
+            "state": "on",
+            "__gohashid": 847
+          }
+        ],
+        "link": []
+      }
     }
   ],
   "voice": [
