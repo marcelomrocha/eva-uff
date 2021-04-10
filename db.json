@@ -5152,15 +5152,15 @@
       "data": {
         "node": [
           {
-            "key": 1617572229265,
-            "name": "Light_2",
+            "key": 1617579097639,
+            "name": "Light_1",
             "type": "light",
             "color": "lightblue",
             "isGroup": false,
             "group": "",
-            "lcolor": "#03CCF9",
+            "lcolor": "#ff00ff",
             "state": "on",
-            "__gohashid": 1312
+            "__gohashid": 700
           }
         ],
         "link": []

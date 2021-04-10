@@ -210,8 +210,10 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
         break;
 //meu codigo
       case "light":
-        node.push(Object.assign(tempobj, { lcolor: $scope.lcolor, state: $scope.state }));
+        node.push(Object.assign(tempobj, { lcolor: $scope.value, state: $scope.state }));
+        console.log("scope: " + $scope.lcolor);
         break;
+//meu codigo
       case "led":
         node.push(Object.assign(tempobj, { name: "Leds_" + id, anim: $scope.leds }));
         break;
