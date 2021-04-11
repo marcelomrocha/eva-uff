@@ -4676,14 +4676,13 @@
       "data": {
         "node": [
           {
-            "key": 1618164709694,
-            "name": "Vision_1",
+            "key": 1618165476171,
+            "name": "Vision_2",
             "type": "vision",
             "color": "lightblue",
             "isGroup": false,
-            "group": "",
             "vision": "capture",
-            "__gohashid": 815
+            "__gohashid": 655
           }
         ],
         "link": []

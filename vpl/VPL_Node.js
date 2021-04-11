@@ -12,6 +12,8 @@ module.exports = {
             social.setVoice(element.voice);
         } else if (element.type === 'emotion') {
             ProcessEmotionNode(social, element)
+        } else if (element.type === 'vision') {
+            ProcessVisionNode(social)
         } else if (element.type === 'light') {
             ProcessLightNode(social, element)
         } else if (element.type === 'speak') {
@@ -69,6 +71,11 @@ function ProcessEmotionNode(social, element) {
 // processing light ******************************************
 function ProcessLightNode(social, element) {
     social.light(element.lcolor, element.state);
+}
+
+// processing vision ******************************************
+function ProcessVisionNode(social) {
+    social.vision();
 }
 
 async function ProcessSpeakNode(social, evaId, element) {

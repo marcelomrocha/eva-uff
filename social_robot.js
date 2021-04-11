@@ -1,6 +1,6 @@
 'use strict';
 
-// cliente para lampada xiaomi
+// ------------------------------------------ cliente para lampada xiaomi
 var net = require('net');
 var client_lampada = new net.Socket();
 //192.168.1.105 (ip fixo connfigurado no rotedor) 55443 IP e Porta da lampada
@@ -20,6 +20,7 @@ client_lampada.on('close', function() {
 	console.log('Connection closed');
 	client_lampada.destroy(); // kill client after server's response
 });
+// ---------------------------------------------------------------------------
 
 
 /* Cognitive services modules */
@@ -360,7 +361,30 @@ class SocialRobot {
         break;
     }
   }
-  // -----------------------------------------------------------------
+// -----------------------------------------------------------------
+
+// ----------  Metodo para controlar a luz - Meu codigo -------------
+  vision(){
+    // ------------------------------------------ cliente para lampada xiaomi
+    var client_vision = new net.Socket();
+    //192.168.1.105 (ip fixo connfigurado no rotedor) 55443 IP e Porta da lampada
+    client_vision.connect(3030, '127.0.0.1', function() {
+
+    });
+
+    client_vision.on('data', function(data) {
+      console.log('Expressão: ' + data);
+    });
+
+    client_vision.on('close', function() {
+      console.log('Client_vision closed');
+      client_vision.destroy(); // kill client after server's response
+    });
+// ---------------------------------------------------------------------------
+    // light on
+    //client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
+  }
+// -----------------------------------------------------------------
 
   emotions(emotion, level, leds, speed) {
     if (!emotional) {
