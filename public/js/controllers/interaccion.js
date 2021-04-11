@@ -5,7 +5,7 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
   $scope.accion = 'Agregar';
   $scope.icon = true;
   $scope.updateid;
-  var modalname = { emotion: 'Emoción', speak: 'Hablar', listen: 'Escuchar', wait: 'Tiempo', for: 'Ciclo', if: 'Condición', mov: 'Movimiento', int: 'Interacción', script: 'Script', sound: 'Audio', light: "Light", led: 'Animación Led', voice: 'Voz', counter: 'Contador', api: 'Api Rest' };
+  var modalname = { emotion: 'Emoción', speak: 'Hablar', listen: 'Escuchar', vision: 'Vision', wait: 'Tiempo', for: 'Ciclo', if: 'Condición', mov: 'Movimiento', int: 'Interacción', script: 'Script', sound: 'Audio', light: "Light", led: 'Animación Led', voice: 'Voz', counter: 'Contador', api: 'Api Rest' };
   var color = { joy: "lightyellow", sad: "lightblue", surprised: "lightgreen", anger: "lightcoral", ini: "lightgray" };
 
   $scope.list = function () {
@@ -186,6 +186,10 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
         break;
       case "listen":
         node.push(Object.assign(tempobj, { opt: $scope.listenopt }));
+        break;
+//meu codigo
+      case "vision":
+        node.push(Object.assign(tempobj, { vision: "capture" }));
         break;
       case "wait":
         node.push(Object.assign(tempobj, { time: $scope.time }));

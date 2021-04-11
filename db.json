@@ -4669,6 +4669,25 @@
           }
         ]
       }
+    },
+    {
+      "_id": "e5ccb418-0d82-462b-8a17-2e8a0051dd77",
+      "nombre": "Vision_Teste",
+      "data": {
+        "node": [
+          {
+            "key": 1618164709694,
+            "name": "Vision_1",
+            "type": "vision",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "vision": "capture",
+            "__gohashid": 815
+          }
+        ],
+        "link": []
+      }
     }
   ],
   "voice": [

@@ -345,24 +345,23 @@ class SocialRobot {
     return emotional;
   }
 
-// ----------  meu codigo -------------
+// ----------  Metodo para controlar a luz - Meu codigo -------------
   light(lcolor, state){
     switch(state){
       case 'off':
         // light off
         client_lampada.write('{"id":1, "method":"set_power","params":["off", "smooth", 100]}\r\n');
         break;
-
       case 'on':
         // light on
         client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
         // seleciona a cor determinada (converte de hex para dec)
         client_lampada.write('{"id":1,"method":"set_rgb","params":[' + parseInt(lcolor.substr(1), 16) + ', "smooth", 1000]}\r\n');
         break;
-        
     }
   }
-  
+  // -----------------------------------------------------------------
+
   emotions(emotion, level, leds, speed) {
     if (!emotional) {
       return;

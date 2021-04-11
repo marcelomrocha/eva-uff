@@ -38,6 +38,9 @@ function init(){
                                                 
                                                 case "light":o="Light Color: "+e.lcolor+"\nState: "+e.state;
                                                 break;  
+
+                                                case "vision":o="Detectando\nExpressões";
+                                                break;
                                                 
                                                 case "speak":
                                                     let n=e.text;
