@@ -5152,18 +5152,33 @@
       "data": {
         "node": [
           {
-            "key": 1617572229265,
-            "name": "Light_2",
+            "key": 1618101185653,
+            "name": "Light_4",
             "type": "light",
             "color": "lightblue",
             "isGroup": false,
-            "group": "",
-            "lcolor": "#03CCF9",
+            "lcolor": "#000CF9",
             "state": "on",
-            "__gohashid": 1312
+            "__gohashid": 802
+          },
+          {
+            "key": 1618102887582,
+            "name": "Light_5",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "lcolor": "#141DD0",
+            "state": "on",
+            "__gohashid": 896
           }
         ],
-        "link": []
+        "link": [
+          {
+            "from": 1618101185653,
+            "to": 1618102887582,
+            "__gohashid": 898
+          }
+        ]
       }
     }
   ],
