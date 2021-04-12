@@ -54,6 +54,7 @@ const port = new SerialPort('/dev/ttyUSB0', {
 
 var send = require('./app');
 var logs = require('./log');
+const app = require('./app');
 var log = '';
 var time = 0;
 var emotional = true;
@@ -371,18 +372,15 @@ class SocialRobot {
     client_vision.connect(3030, '127.0.0.1', function() {
 
     });
-
     client_vision.on('data', function(data) {
       console.log('Expressão: ' + data);
+      app.setRespuesta(data); // coloca o valor global
     });
 
     client_vision.on('close', function() {
       console.log('Client_vision closed');
       client_vision.destroy(); // kill client after server's response
     });
-// ---------------------------------------------------------------------------
-    // light on
-    //client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
   }
 // -----------------------------------------------------------------
 

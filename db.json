@@ -4676,16 +4676,63 @@
       "data": {
         "node": [
           {
-            "key": 1618165476171,
-            "name": "Vision_2",
+            "key": 1618186732882,
+            "name": "Voz_4",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 1475
+          },
+          {
+            "key": 1618186759451,
+            "name": "Vision_5",
             "type": "vision",
             "color": "lightblue",
             "isGroup": false,
+            "group": "",
             "vision": "capture",
-            "__gohashid": 655
+            "__gohashid": 2463
+          },
+          {
+            "key": 1618187454996,
+            "name": "Tiempo_6",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 8000,
+            "__gohashid": 2759
+          },
+          {
+            "key": 1618188377755,
+            "name": "Hablar_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Estou vendo que você está $",
+            "__gohashid": 4035
           }
         ],
-        "link": []
+        "link": [
+          {
+            "__gohashid": 4893,
+            "from": 1618186732882,
+            "to": 1618186759451
+          },
+          {
+            "from": 1618186759451,
+            "to": 1618187454996,
+            "__gohashid": 769
+          },
+          {
+            "__gohashid": 3305,
+            "from": 1618187454996,
+            "to": 1618188377755
+          }
+        ]
       }
     }
   ],
