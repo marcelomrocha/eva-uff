@@ -4734,6 +4734,514 @@
           }
         ]
       }
+    },
+    {
+      "_id": "721edc51-7b2b-4788-9ff9-eefcbe6b42af",
+      "nombre": "Vision_Simples",
+      "data": {
+        "node": [
+          {
+            "key": 1618227581913,
+            "name": "Voz_0",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 1208
+          },
+          {
+            "key": 1618227602942,
+            "name": "Hablar_1",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Oi Marcelo, como você está se sentindo?",
+            "__gohashid": 1274
+          },
+          {
+            "key": 1618227611371,
+            "name": "Vision_2",
+            "type": "vision",
+            "color": "lightblue",
+            "isGroup": false,
+            "vision": "capture",
+            "__gohashid": 1392
+          },
+          {
+            "key": 1618227619866,
+            "name": "Tiempo_3",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 6000,
+            "__gohashid": 1559
+          },
+          {
+            "key": 1618227639410,
+            "name": "Hablar_4",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vejo que você está $",
+            "__gohashid": 1775
+          }
+        ],
+        "link": [
+          {
+            "from": 1618227581913,
+            "to": 1618227602942,
+            "__gohashid": 1276
+          },
+          {
+            "from": 1618227602942,
+            "to": 1618227611371,
+            "__gohashid": 1394
+          },
+          {
+            "from": 1618227611371,
+            "to": 1618227619866,
+            "__gohashid": 1561
+          },
+          {
+            "from": 1618227619866,
+            "to": 1618227639410,
+            "__gohashid": 1777
+          }
+        ]
+      }
+    },
+    {
+      "_id": "ba12eb9a-0aa3-41c0-adbe-5c78a106fb96",
+      "nombre": "Vision_Teste2",
+      "data": {
+        "node": [
+          {
+            "key": 1618310819833,
+            "name": "Voz_1",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 586
+          },
+          {
+            "key": 1618312714475,
+            "name": "Vision_6",
+            "type": "vision",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "vision": "capture",
+            "__gohashid": 3172
+          },
+          {
+            "key": 1618312706337,
+            "name": "Audio_5",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "Exodus - Main Theme",
+            "wait": true,
+            "__gohashid": 3389
+          },
+          {
+            "key": 1618312964294,
+            "name": "Hablar_9",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vejo que você está $",
+            "__gohashid": 4549
+          },
+          {
+            "key": 1618312944927,
+            "name": "Hablar_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Essa música é um clássico do cinema! Será que você gostou?",
+            "__gohashid": 4870
+          },
+          {
+            "key": 1618311695552,
+            "name": "Hablar_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Oi Marcelo. Vou tocar uma música e ver como você se sente.",
+            "__gohashid": 5184
+          },
+          {
+            "key": 1618313230926,
+            "name": "Hablar_10",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vou tocar mais uma música.",
+            "__gohashid": 6152
+          },
+          {
+            "key": 1618313242511,
+            "name": "Audio_11",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "Caneta Azul",
+            "wait": true,
+            "__gohashid": 6516
+          },
+          {
+            "key": 1618313256336,
+            "name": "Vision_12",
+            "type": "vision",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "vision": "capture",
+            "__gohashid": 6955
+          },
+          {
+            "key": 1618313332841,
+            "name": "Hablar_14",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Parece que você ficou $",
+            "__gohashid": 7928
+          },
+          {
+            "key": 1618313289289,
+            "name": "Hablar_13",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Essa música viralizou na internet. Será que você gostou?",
+            "__gohashid": 8488
+          },
+          {
+            "key": 1618313533316,
+            "name": "Hablar_15",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vou tocar a última música de hoje.",
+            "__gohashid": 9047
+          },
+          {
+            "key": 1618313569612,
+            "name": "Audio_16",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "Take On Me",
+            "wait": true,
+            "__gohashid": 9707
+          },
+          {
+            "key": 1618313584818,
+            "name": "Vision_17",
+            "type": "vision",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "vision": "capture",
+            "__gohashid": 10391
+          },
+          {
+            "key": 1618313624256,
+            "name": "Hablar_19",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Até mais. Fui!",
+            "__gohashid": 11854
+          },
+          {
+            "key": 1618313608235,
+            "name": "Hablar_18",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Essa é um clássico dos anos 80.",
+            "__gohashid": 1508
+          },
+          {
+            "key": 1618315798750,
+            "name": "Hablar_20",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vejo que você ficou $",
+            "__gohashid": 2312
+          }
+        ],
+        "link": [
+          {
+            "from": 1618310819833,
+            "to": 1618311695552,
+            "__gohashid": 719
+          },
+          {
+            "from": 1618311695552,
+            "to": 1618312706337,
+            "__gohashid": 3007
+          },
+          {
+            "from": 1618312706337,
+            "to": 1618312714475,
+            "__gohashid": 3175
+          },
+          {
+            "__gohashid": 4179,
+            "from": 1618312714475,
+            "to": 1618312944927
+          },
+          {
+            "from": 1618312944927,
+            "to": 1618312964294,
+            "__gohashid": 4552
+          },
+          {
+            "from": 1618312964294,
+            "to": 1618313230926,
+            "__gohashid": 6155
+          },
+          {
+            "from": 1618313230926,
+            "to": 1618313242511,
+            "__gohashid": 6519
+          },
+          {
+            "from": 1618313242511,
+            "to": 1618313256336,
+            "__gohashid": 6958
+          },
+          {
+            "from": 1618313256336,
+            "to": 1618313289289,
+            "__gohashid": 7420
+          },
+          {
+            "from": 1618313289289,
+            "to": 1618313332841,
+            "__gohashid": 7931
+          },
+          {
+            "from": 1618313332841,
+            "to": 1618313533316,
+            "__gohashid": 9050
+          },
+          {
+            "from": 1618313533316,
+            "to": 1618313569612,
+            "__gohashid": 9710
+          },
+          {
+            "from": 1618313569612,
+            "to": 1618313584818,
+            "__gohashid": 10394
+          },
+          {
+            "from": 1618313584818,
+            "to": 1618313608235,
+            "__gohashid": 11101
+          },
+          {
+            "from": 1618313608235,
+            "to": 1618315798750,
+            "__gohashid": 2315
+          },
+          {
+            "__gohashid": 4564,
+            "from": 1618315798750,
+            "to": 1618313624256
+          }
+        ]
+      }
+    },
+    {
+      "_id": "f7a98ccc-705b-48da-a2ae-842cafe07753",
+      "nombre": "Vision_Teste2_expandida",
+      "data": {
+        "node": [
+          {
+            "key": 1618310819833,
+            "name": "Voz_1",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 586
+          },
+          {
+            "key": 1618313569612,
+            "name": "Audio_16",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "Take On Me",
+            "wait": true,
+            "__gohashid": 9707
+          },
+          {
+            "key": 1618313584818,
+            "name": "Vision_17",
+            "type": "vision",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "vision": "capture",
+            "__gohashid": 10391
+          },
+          {
+            "key": 1618313624256,
+            "name": "Hablar_19",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Até mais. Fui!",
+            "__gohashid": 11854
+          },
+          {
+            "key": 1618315798750,
+            "name": "Hablar_20",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vejo que você ficou $",
+            "__gohashid": 2312
+          },
+          {
+            "key": 1618313533316,
+            "name": "Hablar_15",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Olá Marcelo. Vou tocar uma música.",
+            "__gohashid": 13925
+          },
+          {
+            "key": 1618313608235,
+            "name": "Hablar_18",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Essa é um clássico dos anos 80. Espero que você tenha gostado!",
+            "__gohashid": 14643
+          }
+        ],
+        "link": [
+          {
+            "from": 1618313533316,
+            "to": 1618313569612,
+            "__gohashid": 9710
+          },
+          {
+            "from": 1618313569612,
+            "to": 1618313584818,
+            "__gohashid": 10394
+          },
+          {
+            "from": 1618313584818,
+            "to": 1618313608235,
+            "__gohashid": 11101
+          },
+          {
+            "from": 1618313608235,
+            "to": 1618315798750,
+            "__gohashid": 2315
+          },
+          {
+            "__gohashid": 4564,
+            "from": 1618315798750,
+            "to": 1618313624256
+          },
+          {
+            "__gohashid": 12532,
+            "from": 1618310819833,
+            "to": 1618313533316
+          }
+        ]
+      }
+    },
+    {
+      "_id": "2f33eccc-2e0d-47ea-9324-38cf96847503",
+      "nombre": "Vision_IF",
+      "data": {
+        "node": [
+          {
+            "key": 1618741297773,
+            "name": "Voz_2",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 2297
+          },
+          {
+            "key": 1618741307254,
+            "name": "Vision_3",
+            "type": "vision",
+            "color": "lightblue",
+            "isGroup": false,
+            "vision": "capture",
+            "__gohashid": 2363
+          },
+          {
+            "key": 1618741324809,
+            "name": "Tiempo_4",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 2481
+          },
+          {
+            "key": 1618741348618,
+            "name": "Hablar_5",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "$",
+            "__gohashid": 2648
+          }
+        ],
+        "link": [
+          {
+            "from": 1618741297773,
+            "to": 1618741307254,
+            "__gohashid": 2365
+          },
+          {
+            "from": 1618741307254,
+            "to": 1618741324809,
+            "__gohashid": 2483
+          },
+          {
+            "from": 1618741324809,
+            "to": 1618741348618,
+            "__gohashid": 2650
+          }
+        ]
+      }
     }
   ],
   "voice": [

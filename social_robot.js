@@ -364,22 +364,17 @@ class SocialRobot {
   }
 // -----------------------------------------------------------------
 
-// ----------  Metodo para controlar a luz - Meu codigo -------------
+// ----------  Metodo para reconhecer expressoes - Meu codigo -------------
   vision(){
-    // ------------------------------------------ cliente para lampada xiaomi
+    // ------------------------------------------ cliente para reconhecimento de expressoes
     var client_vision = new net.Socket();
-    //192.168.1.105 (ip fixo connfigurado no rotedor) 55443 IP e Porta da lampada
-    client_vision.connect(3030, '127.0.0.1', function() {
-
-    });
-    client_vision.on('data', function(data) {
-      console.log('Expressão: ' + data);
-      app.setRespuesta(data); // coloca o valor global
-    });
-
-    client_vision.on('close', function() {
-      console.log('Client_vision closed');
-      client_vision.destroy(); // kill client after server's response
+    client_vision.connect(3030, '127.0.0.1')
+      .then(function(err)
+    {
+      client_vision.on('data', function(data) {
+        console.log('Expressão: ' + data);
+        app.setRespuesta(data); // coloca o valor global
+      });
     });
   }
 // -----------------------------------------------------------------
@@ -470,7 +465,7 @@ class SocialRobot {
   SocialRobot.prototype.defaultConfiguration = {
   'attentionWord': 'Eva',
   'name': 'Eva',
-  'voice': 'es-LA_SofiaV3Voice',
+  'voice': 'pt-BR_IsabelaV3Voice', // portugues default
   'ttsReconnect': true,
 };
 
