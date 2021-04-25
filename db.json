@@ -5206,15 +5206,6 @@
             "__gohashid": 2363
           },
           {
-            "key": 1618741324809,
-            "name": "Tiempo_4",
-            "type": "wait",
-            "color": "lightblue",
-            "isGroup": false,
-            "time": 3000,
-            "__gohashid": 2481
-          },
-          {
             "key": 1618741348618,
             "name": "Hablar_5",
             "type": "speak",
@@ -5222,6 +5213,123 @@
             "isGroup": false,
             "text": "$",
             "__gohashid": 2648
+          },
+          {
+            "key": 1618741324809,
+            "name": "Tiempo_4",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 5000,
+            "__gohashid": 824
+          },
+          {
+            "key": 1619385560260,
+            "name": "Light_10",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "#92d050",
+            "state": "on",
+            "__gohashid": 1952
+          },
+          {
+            "key": 1619384658010,
+            "name": "Condición_6",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "feliz",
+            "opt": 4,
+            "__gohashid": 989
+          },
+          {
+            "key": 1619384965896,
+            "name": "Condición_8",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "surpreso",
+            "opt": 4,
+            "__gohashid": 1406
+          },
+          {
+            "key": 1619386469280,
+            "name": "Condición_11",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "neutro",
+            "opt": 4,
+            "__gohashid": 1898
+          },
+          {
+            "key": 1619386485275,
+            "name": "Light_12",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "lcolor": "#ffffff",
+            "state": "on",
+            "__gohashid": 2366
+          },
+          {
+            "key": 1619386500732,
+            "name": "Condición_13",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "triste",
+            "opt": 4,
+            "__gohashid": 2883
+          },
+          {
+            "key": 1619386513716,
+            "name": "Light_14",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "#1f497d",
+            "state": "on",
+            "__gohashid": 4171
+          },
+          {
+            "key": 1619386685817,
+            "name": "Condición_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "raiva",
+            "opt": 4,
+            "__gohashid": 8168
+          },
+          {
+            "key": 1619386696483,
+            "name": "Light_17",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "#ff0000",
+            "state": "on",
+            "__gohashid": 8834
+          },
+          {
+            "key": 1619384982733,
+            "name": "Light_9",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "lcolor": "#ff3399",
+            "state": "on",
+            "__gohashid": 9683
           }
         ],
         "link": [
@@ -5239,6 +5347,56 @@
             "from": 1618741324809,
             "to": 1618741348618,
             "__gohashid": 2650
+          },
+          {
+            "from": 1618741348618,
+            "to": 1619384658010,
+            "__gohashid": 1096
+          },
+          {
+            "from": 1618741348618,
+            "to": 1619384965896,
+            "__gohashid": 1572
+          },
+          {
+            "from": 1619384965896,
+            "to": 1619384982733,
+            "__gohashid": 1966
+          },
+          {
+            "from": 1619384658010,
+            "to": 1619385560260,
+            "__gohashid": 1955
+          },
+          {
+            "from": 1618741348618,
+            "to": 1619386469280,
+            "__gohashid": 1901
+          },
+          {
+            "from": 1619386469280,
+            "to": 1619386485275,
+            "__gohashid": 2369
+          },
+          {
+            "from": 1618741348618,
+            "to": 1619386500732,
+            "__gohashid": 2886
+          },
+          {
+            "from": 1619386500732,
+            "to": 1619386513716,
+            "__gohashid": 3453
+          },
+          {
+            "from": 1618741348618,
+            "to": 1619386685817,
+            "__gohashid": 8171
+          },
+          {
+            "from": 1619386685817,
+            "to": 1619386696483,
+            "__gohashid": 8837
           }
         ]
       }
