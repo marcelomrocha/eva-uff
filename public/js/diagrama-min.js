@@ -54,23 +54,23 @@ function init(){
                                                 break;
                                                 
                                                 case "wait":
-                                                    o="Espera: "+e.time+" milisegundos";
+                                                    o="Wait: "+e.time+" milisegundos";
                                                 break;
                                                 
                                                 case"for":
-                                                    o="Ciclo: "+e.iteraciones+" iteraciones";
+                                                    o="Loop: "+e.iteraciones+" iteraciones";
                                                     break;
                                                     
                                                 case"if":
-                                                    o="Condición: "+e.text;
+                                                    o="Condition: "+e.text;
                                                     break;
                                                     
                                                 case"mov":
-                                                    o="Movimiento: "+e.mov;
+                                                    o="Motion: "+e.mov;
                                                     break;
                                                     
                                                 case"int":
-                                                    o="Interacción";
+                                                    o="Interaction";
                                                 break;
                                                 
                                                 case"script":
@@ -78,7 +78,7 @@ function init(){
                                                 break;
                                                 
                                                 case"sound":
-                                                    o="Sonido: "+e.src+"\nEsperar: "+e.wait;
+                                                    o="Audio: "+e.src+"\nEsperar: "+e.wait;
                                                 break;
                                                 
                                                 case"led":
@@ -86,11 +86,11 @@ function init(){
                                                 break;
                                                 
                                                 case"voice":
-                                                    o="Voz: "+e.voice;
+                                                    o="Voice: "+e.voice;
                                                 break;
                                                 
                                                 case"counter":
-                                                    o="Contador: "+e.count+"\nValor: "+e.value}return o}))))}),
+                                                    o="Counter: "+e.count+"\nValor: "+e.value}return o}))))}),
                                                 
                                                 myDiagram.linkTemplate=e(go.Link,
                                                     {adjusting:go.Link.Stretch,
