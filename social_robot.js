@@ -356,9 +356,9 @@ class SocialRobot {
         break;
       case 'on':
         // light on
-        client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
+        client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 2000]}\r\n');
         // seleciona a cor determinada (converte de hex para dec)
-        client_lampada.write('{"id":1,"method":"set_rgb","params":[' + parseInt(lcolor.substr(1), 16) + ', "smooth", 1000]}\r\n');
+        client_lampada.write('{"id":1,"method":"set_rgb","params":[' + parseInt(lcolor.substr(1), 16) + ', "smooth", 2000]}\r\n');
         break;
     }
   }

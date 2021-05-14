@@ -5,7 +5,7 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
   $scope.accion = 'Agregar';
   $scope.icon = true;
   $scope.updateid;
-  var modalname = { emotion: 'Eva Emotion', speak: 'Hablar', listen: 'Escuchar', vision: 'User Emotion', wait: 'Tiempo', for: 'Ciclo', if: 'Condición', mov: 'Movimiento', int: 'Interacción', script: 'Script', sound: 'Audio', light: "Light", led: 'Animación Led', voice: 'Voz', counter: 'Contador', api: 'Api Rest' };
+  var modalname = { emotion: 'Eva_Emotion', speak: 'Talk', listen: 'Listen', vision: 'User_Emotion', wait: 'Wait', for: 'Loop', if: 'Condition', mov: 'Motion', int: 'Interaction', script: 'Script', sound: 'Audio', light: "Light", led: 'Animation_Led', voice: 'Voice', counter: 'Counter', api: 'Api Rest' };
   var color = { joy: "lightyellow", sad: "lightblue", surprised: "lightgreen", anger: "lightcoral", ini: "lightgray" };
 
   $scope.list = function () {
