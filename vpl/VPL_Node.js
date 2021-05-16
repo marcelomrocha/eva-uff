@@ -12,7 +12,7 @@ module.exports = {
             social.setVoice(element.voice);
         } else if (element.type === 'emotion') {
             ProcessEmotionNode(social, element)
-        } else if (element.type === 'vision') {
+        } else if (element.type === 'user_emotion') {
             ProcessVisionNode(social)
         } else if (element.type === 'light') {
             ProcessLightNode(social, element)

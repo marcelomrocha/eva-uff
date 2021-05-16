@@ -39,7 +39,7 @@ function init(){
                                                 case "light":o="Light Color: "+e.lcolor+"\nState: "+e.state;
                                                 break;  
 
-                                                case "vision":o="Expression Recognition";
+                                                case "user_emotion":o="Expression Recognition";
                                                 break;
                                                 
                                                 case "speak":
@@ -78,11 +78,11 @@ function init(){
                                                 break;
                                                 
                                                 case"sound":
-                                                    o="Audio: "+e.src+"\nEsperar: "+e.wait;
+                                                    o="Audio: "+e.src+"\nWait: "+e.wait;
                                                 break;
                                                 
                                                 case"led":
-                                                    o="Animación: "+e.anim;
+                                                    o="Animation: "+e.anim;
                                                 break;
                                                 
                                                 case"voice":
