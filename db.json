@@ -7923,17 +7923,6 @@
             "__gohashid": 155426
           },
           {
-            "key": 1620728684425,
-            "name": "Condition_6",
-            "type": "if",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "text": "azul",
-            "opt": 4,
-            "__gohashid": 160247
-          },
-          {
             "key": -25,
             "name": "Talk_21",
             "type": "speak",
@@ -7962,17 +7951,6 @@
             "group": "",
             "opt": "",
             "__gohashid": 258525
-          },
-          {
-            "key": 1620947647536,
-            "name": "Condition_30",
-            "type": "if",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "text": "vermelha",
-            "opt": 4,
-            "__gohashid": 275441
           },
           {
             "key": 1620947809893,
@@ -8162,17 +8140,6 @@
             "__gohashid": 417090
           },
           {
-            "key": 1620949403559,
-            "name": "Condition_33",
-            "type": "if",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "text": "verde",
-            "opt": 4,
-            "__gohashid": 420633
-          },
-          {
             "key": 1620949435268,
             "name": "Condition_34",
             "type": "if",
@@ -8234,6 +8201,39 @@
             "lcolor": "#00b0f0",
             "state": "off",
             "__gohashid": 530126
+          },
+          {
+            "key": 1620728684425,
+            "name": "Condition_6",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "azul",
+            "opt": 2,
+            "__gohashid": 331906
+          },
+          {
+            "key": 1620947647536,
+            "name": "Condition_30",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "vermelh",
+            "opt": 2,
+            "__gohashid": 339364
+          },
+          {
+            "key": 1620949403559,
+            "name": "Condition_33",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "verde",
+            "opt": 2,
+            "__gohashid": 343068
           }
         ],
         "link": [
