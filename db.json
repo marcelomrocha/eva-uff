@@ -5554,7 +5554,7 @@
     },
     {
       "_id": "795f6a27-60e8-40d8-9334-abd6779c5dc5",
-      "nombre": "main",
+      "nombre": "main-game-of-colors",
       "data": {
         "node": [
           {
@@ -9674,35 +9674,7132 @@
       }
     },
     {
-      "_id": "04208e2b-2487-4fb3-b19f-ae73635a2aad",
-      "nombre": "zzzz",
+      "_id": "daa68d06-6730-4e92-ad37-3d5405ac14bd",
+      "nombre": "main-emotions",
       "data": {
         "node": [
           {
-            "key": 1621039227454,
-            "name": "User_Emotion_1",
-            "type": "user_emotion",
+            "key": 1620733346532,
+            "name": "Voice_0",
+            "type": "voice",
             "color": "lightblue",
             "isGroup": false,
-            "vision": "capture",
-            "__gohashid": 709
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 78931
           },
           {
-            "key": 1621039248788,
-            "name": "Light_2",
-            "type": "light",
+            "key": 1620733386113,
+            "name": "Talk_1",
+            "type": "speak",
             "color": "lightblue",
             "isGroup": false,
-            "lcolor": "#b2a2c7",
-            "state": "on",
-            "__gohashid": 775
+            "text": "Olá! Eu sou o robô Eva!",
+            "__gohashid": 78939
+          },
+          {
+            "key": 1620733432737,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start",
+            "wait": true,
+            "__gohashid": 78953
+          },
+          {
+            "key": 1620746185406,
+            "name": "Eva_Emotion_14",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 79020
+          },
+          {
+            "key": 1620746215162,
+            "name": "Eva_Emotion_15",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 79047
+          },
+          {
+            "key": 1620746243268,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 79075
+          },
+          {
+            "key": 1620733675681,
+            "name": "Audio_6",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-game-intro",
+            "wait": true,
+            "__gohashid": 79135
+          },
+          {
+            "key": 1620733407447,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vamos jogar o jogo das emoções?",
+            "__gohashid": 84954
+          },
+          {
+            "key": 1620745309081,
+            "name": "Talk_13",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Que legal!",
+            "__gohashid": 114370
+          },
+          {
+            "key": 1620745289404,
+            "name": "Listen_12",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "Nombre",
+            "__gohashid": 114378
+          },
+          {
+            "key": 1620745278649,
+            "name": "Audio_11",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 114386
+          },
+          {
+            "key": 1620745216796,
+            "name": "Talk_10",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Qual o seu nome?",
+            "__gohashid": 114394
+          },
+          {
+            "key": 1620940320192,
+            "name": "Talk_14",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos lá então $",
+            "__gohashid": 114402
+          },
+          {
+            "key": 1621249044442,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 118100
+          },
+          {
+            "key": 1621250248314,
+            "name": "Eva_Emotion_20",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 209950
+          },
+          {
+            "key": 1621256582547,
+            "name": "show-emotions",
+            "type": "int",
+            "color": "lightblue",
+            "isGroup": false,
+            "int": "3346b89c-b930-42d7-b298-b9de6e885cf7",
+            "__gohashid": 3101
           }
         ],
         "link": [
           {
-            "__gohashid": 1049,
-            "from": 1621039248788,
-            "to": 1621039227454
+            "__gohashid": 79037,
+            "from": 1620746185406,
+            "to": 1620733386113
+          },
+          {
+            "from": 1620733407447,
+            "to": 1620746215162,
+            "__gohashid": 79054
+          },
+          {
+            "__gohashid": 79065,
+            "from": 1620746215162,
+            "to": 1620733432737
+          },
+          {
+            "from": 1620733432737,
+            "to": 1620746243268,
+            "__gohashid": 79082
+          },
+          {
+            "from": 1620733386113,
+            "to": 1620733675681,
+            "__gohashid": 79142
+          },
+          {
+            "__gohashid": 79152,
+            "from": 1620733675681,
+            "to": 1620733407447
+          },
+          {
+            "__gohashid": 82725,
+            "from": 1620733346532,
+            "to": 1620746185406
+          },
+          {
+            "from": 1620745309081,
+            "to": 1620940320192,
+            "__gohashid": 114333
+          },
+          {
+            "from": 1620745278649,
+            "to": 1620745289404,
+            "__gohashid": 114352
+          },
+          {
+            "from": 1620745216796,
+            "to": 1620745278649,
+            "__gohashid": 114361
+          },
+          {
+            "__gohashid": 116621,
+            "from": 1620746243268,
+            "to": 1620745216796
+          },
+          {
+            "__gohashid": 118871,
+            "from": 1620745289404,
+            "to": 1621249044442
+          },
+          {
+            "__gohashid": 120746,
+            "from": 1621249044442,
+            "to": 1620745309081
+          },
+          {
+            "__gohashid": 214699,
+            "from": 1620940320192,
+            "to": 1621250248314
+          },
+          {
+            "__gohashid": 3915,
+            "from": 1621250248314,
+            "to": 1621256582547
+          }
+        ]
+      }
+    },
+    {
+      "_id": "e8ab6e7e-32ea-4479-a553-e1b3d19c8ddd",
+      "nombre": "game-emotions-base",
+      "data": {
+        "node": [
+          {
+            "key": 1620728291871,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 100828
+          },
+          {
+            "key": 1620728620039,
+            "name": "Listen_5",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "",
+            "__gohashid": 100843
+          },
+          {
+            "key": 1620728774382,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 100861
+          },
+          {
+            "key": 1620728817402,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 100868
+          },
+          {
+            "key": 1620729134576,
+            "name": "Condition_9",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "",
+            "opt": 4,
+            "__gohashid": 100912
+          },
+          {
+            "key": 1620732512292,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 100947
+          },
+          {
+            "key": 1620733971530,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 100964
+          },
+          {
+            "key": 1620737547432,
+            "name": "Light_23",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "lcolor": "#00b0f0",
+            "state": "off",
+            "__gohashid": 101007
+          },
+          {
+            "key": 1620742147518,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 101024
+          },
+          {
+            "key": 1620742974571,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 101041
+          },
+          {
+            "key": 1620747134736,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 101058
+          },
+          {
+            "key": 1620747170149,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 101065
+          },
+          {
+            "key": 1620730726659,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 101092
+          },
+          {
+            "key": 1620732674409,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 101109
+          },
+          {
+            "key": 1620733187556,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 101116
+          },
+          {
+            "key": 1620732844018,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 101133
+          },
+          {
+            "key": 1620944655887,
+            "name": "Voice_28",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 101195
+          },
+          {
+            "key": 1621251724853,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 29465
+          },
+          {
+            "key": 1620728314878,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Como estou me sentindo?",
+            "__gohashid": 40389
+          },
+          {
+            "key": 1621251818863,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "emotion": "sad",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 87632
+          },
+          {
+            "key": 1620728331861,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 88876
+          },
+          {
+            "key": 1620728684425,
+            "name": "Condition_6",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "triste",
+            "opt": 4,
+            "__gohashid": 90143
+          },
+          {
+            "key": 1620733932927,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo triste.",
+            "__gohashid": 2016
+          }
+        ],
+        "link": [
+          {
+            "from": 1620728774382,
+            "to": 1620728817402,
+            "__gohashid": 100875
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620728684425,
+            "__gohashid": 100893
+          },
+          {
+            "from": 1620728684425,
+            "to": 1620728774382,
+            "__gohashid": 100903
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620729134576,
+            "__gohashid": 100919
+          },
+          {
+            "from": 1620728291871,
+            "to": 1620728314878,
+            "__gohashid": 100936
+          },
+          {
+            "__gohashid": 100954,
+            "from": 1620732512292,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 100971,
+            "from": 1620729134576,
+            "to": 1620733971530
+          },
+          {
+            "__gohashid": 101014,
+            "from": 1620737547432,
+            "to": 1620732512292
+          },
+          {
+            "__gohashid": 101031,
+            "from": 1620728817402,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620742147518,
+            "to": 1620742974571,
+            "__gohashid": 101048
+          },
+          {
+            "from": 1620747134736,
+            "to": 1620747170149,
+            "__gohashid": 101072
+          },
+          {
+            "__gohashid": 101083,
+            "from": 1620747170149,
+            "to": 1620737547432
+          },
+          {
+            "__gohashid": 101099,
+            "from": 1620730726659,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 101123,
+            "from": 1620733187556,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620732674409,
+            "to": 1620732844018,
+            "__gohashid": 101140
+          },
+          {
+            "__gohashid": 101151,
+            "from": 1620732844018,
+            "to": 1620747134736
+          },
+          {
+            "__gohashid": 101167,
+            "from": 1620733971530,
+            "to": 1620733932927
+          },
+          {
+            "__gohashid": 101177,
+            "from": 1620733932927,
+            "to": 1620733187556
+          },
+          {
+            "__gohashid": 101186,
+            "from": 1620733932927,
+            "to": 1620732674409
+          },
+          {
+            "__gohashid": 101202,
+            "from": 1620944655887,
+            "to": 1620730726659
+          },
+          {
+            "__gohashid": 30928,
+            "from": 1620728314878,
+            "to": 1621251724853
+          },
+          {
+            "__gohashid": 72899,
+            "from": 1621251818863,
+            "to": 1620728331861
+          },
+          {
+            "__gohashid": 73232,
+            "from": 1621251724853,
+            "to": 1621251818863
+          },
+          {
+            "__gohashid": 79854,
+            "from": 1620728331861,
+            "to": 1620728620039
+          }
+        ]
+      }
+    },
+    {
+      "_id": "906889ea-6b9e-4021-9b62-29f61c150ffe",
+      "nombre": "main-emotions_expandida",
+      "data": {
+        "node": [
+          {
+            "key": 1620733346532,
+            "name": "Voice_0",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 78931
+          },
+          {
+            "key": 1620733386113,
+            "name": "Talk_1",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Olá! Eu sou o robô Eva!",
+            "__gohashid": 78939
+          },
+          {
+            "key": 1620733432737,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start",
+            "wait": true,
+            "__gohashid": 78953
+          },
+          {
+            "key": 1620746185406,
+            "name": "Eva_Emotion_14",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 79020
+          },
+          {
+            "key": 1620746215162,
+            "name": "Eva_Emotion_15",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 79047
+          },
+          {
+            "key": 1620746243268,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 79075
+          },
+          {
+            "key": 1620733675681,
+            "name": "Audio_6",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-game-intro",
+            "wait": true,
+            "__gohashid": 79135
+          },
+          {
+            "key": 1620733407447,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vamos jogar o jogo das emoções?",
+            "__gohashid": 84954
+          },
+          {
+            "key": 1620745309081,
+            "name": "Talk_13",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Que legal!",
+            "__gohashid": 114370
+          },
+          {
+            "key": 1620745289404,
+            "name": "Listen_12",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "Nombre",
+            "__gohashid": 114378
+          },
+          {
+            "key": 1620745278649,
+            "name": "Audio_11",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 114386
+          },
+          {
+            "key": 1620745216796,
+            "name": "Talk_10",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Qual o seu nome?",
+            "__gohashid": 114394
+          },
+          {
+            "key": 1620940320192,
+            "name": "Talk_14",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos lá então $",
+            "__gohashid": 114402
+          },
+          {
+            "key": 1621249044442,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 118100
+          }
+        ],
+        "link": [
+          {
+            "__gohashid": 79037,
+            "from": 1620746185406,
+            "to": 1620733386113
+          },
+          {
+            "from": 1620733407447,
+            "to": 1620746215162,
+            "__gohashid": 79054
+          },
+          {
+            "__gohashid": 79065,
+            "from": 1620746215162,
+            "to": 1620733432737
+          },
+          {
+            "from": 1620733432737,
+            "to": 1620746243268,
+            "__gohashid": 79082
+          },
+          {
+            "from": 1620733386113,
+            "to": 1620733675681,
+            "__gohashid": 79142
+          },
+          {
+            "__gohashid": 79152,
+            "from": 1620733675681,
+            "to": 1620733407447
+          },
+          {
+            "__gohashid": 82725,
+            "from": 1620733346532,
+            "to": 1620746185406
+          },
+          {
+            "from": 1620745309081,
+            "to": 1620940320192,
+            "__gohashid": 114333
+          },
+          {
+            "from": 1620745278649,
+            "to": 1620745289404,
+            "__gohashid": 114352
+          },
+          {
+            "from": 1620745216796,
+            "to": 1620745278649,
+            "__gohashid": 114361
+          },
+          {
+            "__gohashid": 116621,
+            "from": 1620746243268,
+            "to": 1620745216796
+          },
+          {
+            "__gohashid": 118871,
+            "from": 1620745289404,
+            "to": 1621249044442
+          },
+          {
+            "__gohashid": 120746,
+            "from": 1621249044442,
+            "to": 1620745309081
+          }
+        ]
+      }
+    },
+    {
+      "_id": "3346b89c-b930-42d7-b298-b9de6e885cf7",
+      "nombre": "show-emotions",
+      "data": {
+        "node": [
+          {
+            "key": 1621249545118,
+            "name": "Talk_16",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu vou te mostrar quais são as minhas emoções",
+            "__gohashid": 130927
+          },
+          {
+            "key": 1621250065799,
+            "name": "Voice_17",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 131240
+          },
+          {
+            "key": 1620728331861,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 137078
+          },
+          {
+            "key": 1621250214393,
+            "name": "Talk_18",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu fico assim quando estou feliz!",
+            "__gohashid": 137245
+          },
+          {
+            "key": 1621250248314,
+            "name": "Eva_Emotion_20",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "group": "",
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 137728
+          },
+          {
+            "key": 1621250288949,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 139335
+          },
+          {
+            "key": 1621250371147,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu fico assim quando estou triste!",
+            "__gohashid": 140291
+          },
+          {
+            "key": 1621250399348,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 5000,
+            "__gohashid": 143030
+          },
+          {
+            "key": 1621250501987,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "group": "",
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 143602
+          },
+          {
+            "key": -11,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 1153
+          },
+          {
+            "key": -12,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 1171
+          },
+          {
+            "key": -10,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "emotion": "sad",
+            "level": 0,
+            "__gohashid": 3999
+          },
+          {
+            "key": -13,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu fico assim quando estou com raiva!",
+            "__gohashid": 11926
+          },
+          {
+            "key": -17,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 12812
+          },
+          {
+            "key": -18,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 12829
+          },
+          {
+            "key": -16,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightcoral",
+            "isGroup": false,
+            "group": "",
+            "emotion": "anger",
+            "level": 0,
+            "__gohashid": 15981
+          },
+          {
+            "key": -14,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 20608
+          },
+          {
+            "key": -15,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 21559
+          },
+          {
+            "key": 1621251240677,
+            "name": "Talk_24",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vamos começar o jogo",
+            "__gohashid": 22535
+          }
+        ],
+        "link": [
+          {
+            "__gohashid": 131356,
+            "from": 1621250065799,
+            "to": 1621249545118
+          },
+          {
+            "__gohashid": 136585,
+            "from": 1621249545118,
+            "to": 1620728331861
+          },
+          {
+            "from": 1620728331861,
+            "to": 1621250214393,
+            "__gohashid": 137248
+          },
+          {
+            "__gohashid": 138088,
+            "from": 1621250248314,
+            "to": 1621250065799
+          },
+          {
+            "__gohashid": 139905,
+            "from": 1621250214393,
+            "to": 1621250288949
+          },
+          {
+            "__gohashid": 141125,
+            "from": 1621250288949,
+            "to": 1621250399348
+          },
+          {
+            "from": 1621250399348,
+            "to": 1621250501987,
+            "__gohashid": 143605
+          },
+          {
+            "__gohashid": 144058,
+            "from": 1621250501987,
+            "to": 1621250371147
+          },
+          {
+            "__gohashid": 1160,
+            "from": -10,
+            "to": -11
+          },
+          {
+            "from": -11,
+            "to": -12,
+            "__gohashid": 1178
+          },
+          {
+            "__gohashid": 1195,
+            "from": -12,
+            "to": -13
+          },
+          {
+            "__gohashid": 5857,
+            "from": 1621250371147,
+            "to": -14
+          },
+          {
+            "__gohashid": 7448,
+            "from": -14,
+            "to": -10
+          },
+          {
+            "__gohashid": 12801,
+            "from": -15,
+            "to": -16
+          },
+          {
+            "__gohashid": 12819,
+            "from": -16,
+            "to": -17
+          },
+          {
+            "from": -17,
+            "to": -18,
+            "__gohashid": 12836
+          },
+          {
+            "__gohashid": 13945,
+            "from": -13,
+            "to": -15
+          },
+          {
+            "__gohashid": 18842,
+            "from": -18,
+            "to": 1621251240677
+          }
+        ]
+      }
+    },
+    {
+      "_id": "342b3755-ac6a-4a8d-a3b4-f317d9ace90b",
+      "nombre": "game-emotions-fase1 e 2",
+      "data": {
+        "node": [
+          {
+            "key": 1620728291871,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 100828
+          },
+          {
+            "key": 1620728620039,
+            "name": "Listen_5",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "",
+            "__gohashid": 100843
+          },
+          {
+            "key": 1620728774382,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 100861
+          },
+          {
+            "key": 1620728817402,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 100868
+          },
+          {
+            "key": 1620729134576,
+            "name": "Condition_9",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "",
+            "opt": 4,
+            "__gohashid": 100912
+          },
+          {
+            "key": 1620732512292,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 100947
+          },
+          {
+            "key": 1620733971530,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 100964
+          },
+          {
+            "key": 1620742147518,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 101024
+          },
+          {
+            "key": 1620742974571,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 101041
+          },
+          {
+            "key": 1620747134736,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 101058
+          },
+          {
+            "key": 1620747170149,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 101065
+          },
+          {
+            "key": 1620730726659,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 101092
+          },
+          {
+            "key": 1620732674409,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 101109
+          },
+          {
+            "key": 1620733187556,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 101116
+          },
+          {
+            "key": 1620732844018,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 101133
+          },
+          {
+            "key": 1620944655887,
+            "name": "Voice_28",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 101195
+          },
+          {
+            "key": 1621251724853,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 29465
+          },
+          {
+            "key": 1620728314878,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Como estou me sentindo?",
+            "__gohashid": 40389
+          },
+          {
+            "key": 1621251818863,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "emotion": "sad",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 87632
+          },
+          {
+            "key": 1620728331861,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 88876
+          },
+          {
+            "key": 1620733932927,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo triste.",
+            "__gohashid": 2016
+          },
+          {
+            "key": -24,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 2796
+          },
+          {
+            "key": -26,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 2811
+          },
+          {
+            "key": -27,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 2818
+          },
+          {
+            "key": -29,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 2854
+          },
+          {
+            "key": -30,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 2872
+          },
+          {
+            "key": -32,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 2906
+          },
+          {
+            "key": -33,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 2923
+          },
+          {
+            "key": -34,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 2940
+          },
+          {
+            "key": -35,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 2947
+          },
+          {
+            "key": -36,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 2974
+          },
+          {
+            "key": -37,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 2991
+          },
+          {
+            "key": -38,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 2998
+          },
+          {
+            "key": -39,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 3015
+          },
+          {
+            "key": -41,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 3059
+          },
+          {
+            "key": -42,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Como estou me sentindo?",
+            "__gohashid": 3066
+          },
+          {
+            "key": -44,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 3110
+          },
+          {
+            "key": -43,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightcoral",
+            "isGroup": false,
+            "group": "",
+            "emotion": "anger",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 21990
+          },
+          {
+            "key": -46,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo com raiva.",
+            "__gohashid": 80966
+          },
+          {
+            "key": 1621254042909,
+            "name": "Listen_33",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 126848
+          },
+          {
+            "key": 1621254416136,
+            "name": "Condition_35",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "",
+            "opt": 4,
+            "__gohashid": 166398
+          },
+          {
+            "key": 1621254188549,
+            "name": "Condition_34",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "raiva",
+            "opt": 2,
+            "__gohashid": 187547
+          },
+          {
+            "key": 1620728684425,
+            "name": "Condition_6",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "triste",
+            "opt": 2,
+            "__gohashid": 189897
+          }
+        ],
+        "link": [
+          {
+            "from": 1620728774382,
+            "to": 1620728817402,
+            "__gohashid": 100875
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620728684425,
+            "__gohashid": 100893
+          },
+          {
+            "from": 1620728684425,
+            "to": 1620728774382,
+            "__gohashid": 100903
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620729134576,
+            "__gohashid": 100919
+          },
+          {
+            "from": 1620728291871,
+            "to": 1620728314878,
+            "__gohashid": 100936
+          },
+          {
+            "__gohashid": 100954,
+            "from": 1620732512292,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 100971,
+            "from": 1620729134576,
+            "to": 1620733971530
+          },
+          {
+            "__gohashid": 101031,
+            "from": 1620728817402,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620742147518,
+            "to": 1620742974571,
+            "__gohashid": 101048
+          },
+          {
+            "from": 1620747134736,
+            "to": 1620747170149,
+            "__gohashid": 101072
+          },
+          {
+            "__gohashid": 101099,
+            "from": 1620730726659,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 101123,
+            "from": 1620733187556,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620732674409,
+            "to": 1620732844018,
+            "__gohashid": 101140
+          },
+          {
+            "__gohashid": 101151,
+            "from": 1620732844018,
+            "to": 1620747134736
+          },
+          {
+            "__gohashid": 101167,
+            "from": 1620733971530,
+            "to": 1620733932927
+          },
+          {
+            "__gohashid": 101177,
+            "from": 1620733932927,
+            "to": 1620733187556
+          },
+          {
+            "__gohashid": 101186,
+            "from": 1620733932927,
+            "to": 1620732674409
+          },
+          {
+            "__gohashid": 101202,
+            "from": 1620944655887,
+            "to": 1620730726659
+          },
+          {
+            "__gohashid": 30928,
+            "from": 1620728314878,
+            "to": 1621251724853
+          },
+          {
+            "__gohashid": 72899,
+            "from": 1621251818863,
+            "to": 1620728331861
+          },
+          {
+            "__gohashid": 73232,
+            "from": 1621251724853,
+            "to": 1621251818863
+          },
+          {
+            "__gohashid": 79854,
+            "from": 1620728331861,
+            "to": 1620728620039
+          },
+          {
+            "from": -26,
+            "to": -27,
+            "__gohashid": 2825
+          },
+          {
+            "__gohashid": 2861,
+            "from": -29,
+            "to": -24
+          },
+          {
+            "__gohashid": 2913,
+            "from": -27,
+            "to": -32
+          },
+          {
+            "from": -32,
+            "to": -33,
+            "__gohashid": 2930
+          },
+          {
+            "from": -34,
+            "to": -35,
+            "__gohashid": 2954
+          },
+          {
+            "__gohashid": 2981,
+            "from": -36,
+            "to": -24
+          },
+          {
+            "__gohashid": 3005,
+            "from": -38,
+            "to": -32
+          },
+          {
+            "from": -37,
+            "to": -39,
+            "__gohashid": 3022
+          },
+          {
+            "__gohashid": 3033,
+            "from": -39,
+            "to": -34
+          },
+          {
+            "from": -24,
+            "to": -42,
+            "__gohashid": 3073
+          },
+          {
+            "__gohashid": 3083,
+            "from": -42,
+            "to": -41
+          },
+          {
+            "__gohashid": 3100,
+            "from": -41,
+            "to": -43
+          },
+          {
+            "__gohashid": 3117,
+            "from": -43,
+            "to": -44
+          },
+          {
+            "__gohashid": 3169,
+            "from": -30,
+            "to": -46
+          },
+          {
+            "__gohashid": 3179,
+            "from": -46,
+            "to": -38
+          },
+          {
+            "__gohashid": 3188,
+            "from": -46,
+            "to": -37
+          },
+          {
+            "__gohashid": 24380,
+            "from": 1620742974571,
+            "to": -36
+          },
+          {
+            "__gohashid": 111110,
+            "from": 1620747170149,
+            "to": 1620732512292
+          },
+          {
+            "__gohashid": 113733,
+            "from": -35,
+            "to": -29
+          },
+          {
+            "__gohashid": 129473,
+            "from": -44,
+            "to": 1621254042909
+          },
+          {
+            "__gohashid": 149154,
+            "from": 1621254042909,
+            "to": 1621254188549
+          },
+          {
+            "__gohashid": 155031,
+            "from": 1621254188549,
+            "to": -26
+          },
+          {
+            "__gohashid": 168891,
+            "from": 1621254042909,
+            "to": 1621254416136
+          },
+          {
+            "__gohashid": 174601,
+            "from": 1621254416136,
+            "to": -30
+          }
+        ]
+      }
+    },
+    {
+      "_id": "c4da3282-de19-4e39-a95f-70f87d20a5a5",
+      "nombre": "main-emotions e show-emotions",
+      "data": {
+        "node": [
+          {
+            "key": 1620733346532,
+            "name": "Voice_0",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 78931
+          },
+          {
+            "key": 1620733386113,
+            "name": "Talk_1",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Olá! Eu sou o robô Eva!",
+            "__gohashid": 78939
+          },
+          {
+            "key": 1620733432737,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start",
+            "wait": true,
+            "__gohashid": 78953
+          },
+          {
+            "key": 1620746185406,
+            "name": "Eva_Emotion_14",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 79020
+          },
+          {
+            "key": 1620746215162,
+            "name": "Eva_Emotion_15",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 79047
+          },
+          {
+            "key": 1620746243268,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 79075
+          },
+          {
+            "key": 1620733675681,
+            "name": "Audio_6",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-game-intro",
+            "wait": true,
+            "__gohashid": 79135
+          },
+          {
+            "key": 1620733407447,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vamos jogar o jogo das emoções?",
+            "__gohashid": 84954
+          },
+          {
+            "key": 1620745309081,
+            "name": "Talk_13",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Que legal!",
+            "__gohashid": 114370
+          },
+          {
+            "key": 1620745289404,
+            "name": "Listen_12",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "Nombre",
+            "__gohashid": 114378
+          },
+          {
+            "key": 1620745278649,
+            "name": "Audio_11",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 114386
+          },
+          {
+            "key": 1620745216796,
+            "name": "Talk_10",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Qual o seu nome?",
+            "__gohashid": 114394
+          },
+          {
+            "key": 1620940320192,
+            "name": "Talk_14",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos lá então $",
+            "__gohashid": 114402
+          },
+          {
+            "key": 1621249044442,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 118100
+          },
+          {
+            "key": 1621250248314,
+            "name": "Eva_Emotion_20",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 209950
+          },
+          {
+            "key": 1621249545118,
+            "name": "Talk_16",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu vou te mostrar quais são as minhas emoções",
+            "__gohashid": 130927
+          },
+          {
+            "key": 1621250065799,
+            "name": "Voice_17",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 131240
+          },
+          {
+            "key": 1620728331861,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 137078
+          },
+          {
+            "key": 1621250214393,
+            "name": "Talk_18",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu fico assim quando estou feliz!",
+            "__gohashid": 137245
+          },
+          {
+            "key": 1621250288949,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 139335
+          },
+          {
+            "key": 1621250371147,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu fico assim quando estou triste!",
+            "__gohashid": 140291
+          },
+          {
+            "key": 1621250399348,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 5000,
+            "__gohashid": 143030
+          },
+          {
+            "key": 1621250501987,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "group": "",
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 143602
+          },
+          {
+            "key": -11,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 1153
+          },
+          {
+            "key": -12,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 1171
+          },
+          {
+            "key": -10,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "emotion": "sad",
+            "level": 0,
+            "__gohashid": 3999
+          },
+          {
+            "key": -13,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu fico assim quando estou com raiva!",
+            "__gohashid": 11926
+          },
+          {
+            "key": -17,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 12812
+          },
+          {
+            "key": -18,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 12829
+          },
+          {
+            "key": -16,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightcoral",
+            "isGroup": false,
+            "group": "",
+            "emotion": "anger",
+            "level": 0,
+            "__gohashid": 15981
+          },
+          {
+            "key": -14,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 20608
+          },
+          {
+            "key": -15,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 21559
+          },
+          {
+            "key": 1621251240677,
+            "name": "Talk_24",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vamos começar o jogo",
+            "__gohashid": 22535
+          },
+          {
+            "key": 1621258616103,
+            "name": "game-emotions-fases 1, 2 e 3",
+            "type": "int",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "int": "b6089295-d85a-42b3-b2cd-6a9ceb22a9a0",
+            "__gohashid": 192429
+          }
+        ],
+        "link": [
+          {
+            "__gohashid": 79037,
+            "from": 1620746185406,
+            "to": 1620733386113
+          },
+          {
+            "from": 1620733407447,
+            "to": 1620746215162,
+            "__gohashid": 79054
+          },
+          {
+            "__gohashid": 79065,
+            "from": 1620746215162,
+            "to": 1620733432737
+          },
+          {
+            "from": 1620733432737,
+            "to": 1620746243268,
+            "__gohashid": 79082
+          },
+          {
+            "from": 1620733386113,
+            "to": 1620733675681,
+            "__gohashid": 79142
+          },
+          {
+            "__gohashid": 79152,
+            "from": 1620733675681,
+            "to": 1620733407447
+          },
+          {
+            "__gohashid": 82725,
+            "from": 1620733346532,
+            "to": 1620746185406
+          },
+          {
+            "from": 1620745309081,
+            "to": 1620940320192,
+            "__gohashid": 114333
+          },
+          {
+            "from": 1620745278649,
+            "to": 1620745289404,
+            "__gohashid": 114352
+          },
+          {
+            "from": 1620745216796,
+            "to": 1620745278649,
+            "__gohashid": 114361
+          },
+          {
+            "__gohashid": 116621,
+            "from": 1620746243268,
+            "to": 1620745216796
+          },
+          {
+            "__gohashid": 118871,
+            "from": 1620745289404,
+            "to": 1621249044442
+          },
+          {
+            "__gohashid": 120746,
+            "from": 1621249044442,
+            "to": 1620745309081
+          },
+          {
+            "__gohashid": 214699,
+            "from": 1620940320192,
+            "to": 1621250248314
+          },
+          {
+            "__gohashid": 131356,
+            "from": 1621250065799,
+            "to": 1621249545118
+          },
+          {
+            "__gohashid": 136585,
+            "from": 1621249545118,
+            "to": 1620728331861
+          },
+          {
+            "from": 1620728331861,
+            "to": 1621250214393,
+            "__gohashid": 137248
+          },
+          {
+            "__gohashid": 138088,
+            "from": 1621250248314,
+            "to": 1621250065799
+          },
+          {
+            "__gohashid": 139905,
+            "from": 1621250214393,
+            "to": 1621250288949
+          },
+          {
+            "__gohashid": 141125,
+            "from": 1621250288949,
+            "to": 1621250399348
+          },
+          {
+            "from": 1621250399348,
+            "to": 1621250501987,
+            "__gohashid": 143605
+          },
+          {
+            "__gohashid": 144058,
+            "from": 1621250501987,
+            "to": 1621250371147
+          },
+          {
+            "__gohashid": 1160,
+            "from": -10,
+            "to": -11
+          },
+          {
+            "from": -11,
+            "to": -12,
+            "__gohashid": 1178
+          },
+          {
+            "__gohashid": 1195,
+            "from": -12,
+            "to": -13
+          },
+          {
+            "__gohashid": 5857,
+            "from": 1621250371147,
+            "to": -14
+          },
+          {
+            "__gohashid": 7448,
+            "from": -14,
+            "to": -10
+          },
+          {
+            "__gohashid": 12801,
+            "from": -15,
+            "to": -16
+          },
+          {
+            "__gohashid": 12819,
+            "from": -16,
+            "to": -17
+          },
+          {
+            "from": -17,
+            "to": -18,
+            "__gohashid": 12836
+          },
+          {
+            "__gohashid": 13945,
+            "from": -13,
+            "to": -15
+          },
+          {
+            "__gohashid": 18842,
+            "from": -18,
+            "to": 1621251240677
+          },
+          {
+            "from": 1621251240677,
+            "to": 1621258616103,
+            "__gohashid": 192432
+          }
+        ]
+      }
+    },
+    {
+      "_id": "c3387689-d770-4a1f-91cd-35b758f6630a",
+      "nombre": "main-emotions e show-emotions_expandida",
+      "data": {
+        "node": [
+          {
+            "key": 1620733346532,
+            "name": "Voice_0",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 78931
+          },
+          {
+            "key": 1620733386113,
+            "name": "Talk_1",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Olá! Eu sou o robô Eva!",
+            "__gohashid": 78939
+          },
+          {
+            "key": 1620733432737,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start",
+            "wait": true,
+            "__gohashid": 78953
+          },
+          {
+            "key": 1620746185406,
+            "name": "Eva_Emotion_14",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 79020
+          },
+          {
+            "key": 1620746215162,
+            "name": "Eva_Emotion_15",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 79047
+          },
+          {
+            "key": 1620746243268,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 79075
+          },
+          {
+            "key": 1620733675681,
+            "name": "Audio_6",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-game-intro",
+            "wait": true,
+            "__gohashid": 79135
+          },
+          {
+            "key": 1620733407447,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vamos jogar o jogo das emoções?",
+            "__gohashid": 84954
+          },
+          {
+            "key": 1620745309081,
+            "name": "Talk_13",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Que legal!",
+            "__gohashid": 114370
+          },
+          {
+            "key": 1620745289404,
+            "name": "Listen_12",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "Nombre",
+            "__gohashid": 114378
+          },
+          {
+            "key": 1620745278649,
+            "name": "Audio_11",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 114386
+          },
+          {
+            "key": 1620745216796,
+            "name": "Talk_10",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Qual o seu nome?",
+            "__gohashid": 114394
+          },
+          {
+            "key": 1620940320192,
+            "name": "Talk_14",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos lá então $",
+            "__gohashid": 114402
+          },
+          {
+            "key": 1621249044442,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 118100
+          },
+          {
+            "key": 1621250248314,
+            "name": "Eva_Emotion_20",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 209950
+          },
+          {
+            "key": 1621249545118,
+            "name": "Talk_16",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu vou te mostrar quais são as minhas emoções",
+            "__gohashid": 130927
+          },
+          {
+            "key": 1621250065799,
+            "name": "Voice_17",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 131240
+          },
+          {
+            "key": 1620728331861,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 137078
+          },
+          {
+            "key": 1621250214393,
+            "name": "Talk_18",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu fico assim quando estou feliz!",
+            "__gohashid": 137245
+          },
+          {
+            "key": 1621250288949,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 139335
+          },
+          {
+            "key": 1621250371147,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu fico assim quando estou triste!",
+            "__gohashid": 140291
+          },
+          {
+            "key": 1621250399348,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 5000,
+            "__gohashid": 143030
+          },
+          {
+            "key": 1621250501987,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "group": "",
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 143602
+          },
+          {
+            "key": -11,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 1153
+          },
+          {
+            "key": -12,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 1171
+          },
+          {
+            "key": -10,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "emotion": "sad",
+            "level": 0,
+            "__gohashid": 3999
+          },
+          {
+            "key": -13,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu fico assim quando estou com raiva!",
+            "__gohashid": 11926
+          },
+          {
+            "key": -17,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 12812
+          },
+          {
+            "key": -18,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 12829
+          },
+          {
+            "key": -16,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightcoral",
+            "isGroup": false,
+            "group": "",
+            "emotion": "anger",
+            "level": 0,
+            "__gohashid": 15981
+          },
+          {
+            "key": -14,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 20608
+          },
+          {
+            "key": -15,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 21559
+          },
+          {
+            "key": 1621251240677,
+            "name": "Talk_24",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vamos começar o jogo",
+            "__gohashid": 22535
+          },
+          {
+            "key": 1620728291871,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 100828
+          },
+          {
+            "key": 1620728620039,
+            "name": "Listen_5",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "",
+            "__gohashid": 100843
+          },
+          {
+            "key": 1620728774382,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 100861
+          },
+          {
+            "key": 1620728817402,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 100868
+          },
+          {
+            "key": 1620729134576,
+            "name": "Condition_9",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "",
+            "opt": 4,
+            "__gohashid": 100912
+          },
+          {
+            "key": 1620732512292,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 100947
+          },
+          {
+            "key": 1620733971530,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 100964
+          },
+          {
+            "key": 1620737547432,
+            "name": "Light_23",
+            "type": "light",
+            "color": "lightblue",
+            "isGroup": false,
+            "lcolor": "#00b0f0",
+            "state": "off",
+            "__gohashid": 101007
+          },
+          {
+            "key": 1620742147518,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 101024
+          },
+          {
+            "key": 1620742974571,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 101041
+          },
+          {
+            "key": 1620747134736,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 101058
+          },
+          {
+            "key": 1620747170149,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 101065
+          },
+          {
+            "key": 1620730726659,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 101092
+          },
+          {
+            "key": 1620732674409,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 101109
+          },
+          {
+            "key": 1620733187556,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 101116
+          },
+          {
+            "key": 1620732844018,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 101133
+          },
+          {
+            "key": 1620944655887,
+            "name": "Voice_28",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 101195
+          },
+          {
+            "key": 1621251724853,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 29465
+          },
+          {
+            "key": 1620728314878,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Como estou me sentindo?",
+            "__gohashid": 40389
+          },
+          {
+            "key": 1621251818863,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "emotion": "sad",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 87632
+          },
+          {
+            "key": 1620728331861,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 88876
+          },
+          {
+            "key": 1620728684425,
+            "name": "Condition_6",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "triste",
+            "opt": 4,
+            "__gohashid": 90143
+          },
+          {
+            "key": 1620733932927,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo triste.",
+            "__gohashid": 2016
+          }
+        ],
+        "link": [
+          {
+            "__gohashid": 79037,
+            "from": 1620746185406,
+            "to": 1620733386113
+          },
+          {
+            "from": 1620733407447,
+            "to": 1620746215162,
+            "__gohashid": 79054
+          },
+          {
+            "__gohashid": 79065,
+            "from": 1620746215162,
+            "to": 1620733432737
+          },
+          {
+            "from": 1620733432737,
+            "to": 1620746243268,
+            "__gohashid": 79082
+          },
+          {
+            "from": 1620733386113,
+            "to": 1620733675681,
+            "__gohashid": 79142
+          },
+          {
+            "__gohashid": 79152,
+            "from": 1620733675681,
+            "to": 1620733407447
+          },
+          {
+            "__gohashid": 82725,
+            "from": 1620733346532,
+            "to": 1620746185406
+          },
+          {
+            "from": 1620745309081,
+            "to": 1620940320192,
+            "__gohashid": 114333
+          },
+          {
+            "from": 1620745278649,
+            "to": 1620745289404,
+            "__gohashid": 114352
+          },
+          {
+            "from": 1620745216796,
+            "to": 1620745278649,
+            "__gohashid": 114361
+          },
+          {
+            "__gohashid": 116621,
+            "from": 1620746243268,
+            "to": 1620745216796
+          },
+          {
+            "__gohashid": 118871,
+            "from": 1620745289404,
+            "to": 1621249044442
+          },
+          {
+            "__gohashid": 120746,
+            "from": 1621249044442,
+            "to": 1620745309081
+          },
+          {
+            "__gohashid": 214699,
+            "from": 1620940320192,
+            "to": 1621250248314
+          },
+          {
+            "__gohashid": 131356,
+            "from": 1621250065799,
+            "to": 1621249545118
+          },
+          {
+            "__gohashid": 136585,
+            "from": 1621249545118,
+            "to": 1620728331861
+          },
+          {
+            "from": 1620728331861,
+            "to": 1621250214393,
+            "__gohashid": 137248
+          },
+          {
+            "__gohashid": 138088,
+            "from": 1621250248314,
+            "to": 1621250065799
+          },
+          {
+            "__gohashid": 139905,
+            "from": 1621250214393,
+            "to": 1621250288949
+          },
+          {
+            "__gohashid": 141125,
+            "from": 1621250288949,
+            "to": 1621250399348
+          },
+          {
+            "from": 1621250399348,
+            "to": 1621250501987,
+            "__gohashid": 143605
+          },
+          {
+            "__gohashid": 144058,
+            "from": 1621250501987,
+            "to": 1621250371147
+          },
+          {
+            "__gohashid": 1160,
+            "from": -10,
+            "to": -11
+          },
+          {
+            "from": -11,
+            "to": -12,
+            "__gohashid": 1178
+          },
+          {
+            "__gohashid": 1195,
+            "from": -12,
+            "to": -13
+          },
+          {
+            "__gohashid": 5857,
+            "from": 1621250371147,
+            "to": -14
+          },
+          {
+            "__gohashid": 7448,
+            "from": -14,
+            "to": -10
+          },
+          {
+            "__gohashid": 12801,
+            "from": -15,
+            "to": -16
+          },
+          {
+            "__gohashid": 12819,
+            "from": -16,
+            "to": -17
+          },
+          {
+            "from": -17,
+            "to": -18,
+            "__gohashid": 12836
+          },
+          {
+            "__gohashid": 13945,
+            "from": -13,
+            "to": -15
+          },
+          {
+            "__gohashid": 18842,
+            "from": -18,
+            "to": 1621251240677
+          },
+          {
+            "__gohashid": 11192,
+            "from": 1621251240677,
+            "to": 1620944655887
+          },
+          {
+            "from": 1620728774382,
+            "to": 1620728817402,
+            "__gohashid": 100875
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620728684425,
+            "__gohashid": 100893
+          },
+          {
+            "from": 1620728684425,
+            "to": 1620728774382,
+            "__gohashid": 100903
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620729134576,
+            "__gohashid": 100919
+          },
+          {
+            "from": 1620728291871,
+            "to": 1620728314878,
+            "__gohashid": 100936
+          },
+          {
+            "__gohashid": 100954,
+            "from": 1620732512292,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 100971,
+            "from": 1620729134576,
+            "to": 1620733971530
+          },
+          {
+            "__gohashid": 101014,
+            "from": 1620737547432,
+            "to": 1620732512292
+          },
+          {
+            "__gohashid": 101031,
+            "from": 1620728817402,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620742147518,
+            "to": 1620742974571,
+            "__gohashid": 101048
+          },
+          {
+            "from": 1620747134736,
+            "to": 1620747170149,
+            "__gohashid": 101072
+          },
+          {
+            "__gohashid": 101083,
+            "from": 1620747170149,
+            "to": 1620737547432
+          },
+          {
+            "__gohashid": 101099,
+            "from": 1620730726659,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 101123,
+            "from": 1620733187556,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620732674409,
+            "to": 1620732844018,
+            "__gohashid": 101140
+          },
+          {
+            "__gohashid": 101151,
+            "from": 1620732844018,
+            "to": 1620747134736
+          },
+          {
+            "__gohashid": 101167,
+            "from": 1620733971530,
+            "to": 1620733932927
+          },
+          {
+            "__gohashid": 101177,
+            "from": 1620733932927,
+            "to": 1620733187556
+          },
+          {
+            "__gohashid": 101186,
+            "from": 1620733932927,
+            "to": 1620732674409
+          },
+          {
+            "__gohashid": 101202,
+            "from": 1620944655887,
+            "to": 1620730726659
+          },
+          {
+            "__gohashid": 30928,
+            "from": 1620728314878,
+            "to": 1621251724853
+          },
+          {
+            "__gohashid": 72899,
+            "from": 1621251818863,
+            "to": 1620728331861
+          },
+          {
+            "__gohashid": 73232,
+            "from": 1621251724853,
+            "to": 1621251818863
+          },
+          {
+            "__gohashid": 79854,
+            "from": 1620728331861,
+            "to": 1620728620039
+          }
+        ]
+      }
+    },
+    {
+      "_id": "b6089295-d85a-42b3-b2cd-6a9ceb22a9a0",
+      "nombre": "game-emotions-fases 1, 2 e 3",
+      "data": {
+        "node": [
+          {
+            "key": 1620728291871,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 100828
+          },
+          {
+            "key": 1620728620039,
+            "name": "Listen_5",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "",
+            "__gohashid": 100843
+          },
+          {
+            "key": 1620728774382,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 100861
+          },
+          {
+            "key": 1620728817402,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 100868
+          },
+          {
+            "key": 1620729134576,
+            "name": "Condition_9",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "",
+            "opt": 4,
+            "__gohashid": 100912
+          },
+          {
+            "key": 1620732512292,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 100947
+          },
+          {
+            "key": 1620733971530,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 100964
+          },
+          {
+            "key": 1620742147518,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 101024
+          },
+          {
+            "key": 1620742974571,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 101041
+          },
+          {
+            "key": 1620747134736,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 101058
+          },
+          {
+            "key": 1620747170149,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 101065
+          },
+          {
+            "key": 1620730726659,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 101092
+          },
+          {
+            "key": 1620732674409,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 101109
+          },
+          {
+            "key": 1620733187556,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 101116
+          },
+          {
+            "key": 1620732844018,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 101133
+          },
+          {
+            "key": 1620944655887,
+            "name": "Voice_28",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 101195
+          },
+          {
+            "key": 1621251724853,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 29465
+          },
+          {
+            "key": 1620728314878,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Como estou me sentindo?",
+            "__gohashid": 40389
+          },
+          {
+            "key": 1621251818863,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "emotion": "sad",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 87632
+          },
+          {
+            "key": 1620728331861,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 88876
+          },
+          {
+            "key": 1620733932927,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo triste.",
+            "__gohashid": 2016
+          },
+          {
+            "key": -24,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 2796
+          },
+          {
+            "key": -26,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 2811
+          },
+          {
+            "key": -27,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 2818
+          },
+          {
+            "key": -29,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 2854
+          },
+          {
+            "key": -30,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 2872
+          },
+          {
+            "key": -32,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 2906
+          },
+          {
+            "key": -33,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 2923
+          },
+          {
+            "key": -34,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 2940
+          },
+          {
+            "key": -35,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 2947
+          },
+          {
+            "key": -36,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 2974
+          },
+          {
+            "key": -37,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 2991
+          },
+          {
+            "key": -38,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 2998
+          },
+          {
+            "key": -39,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 3015
+          },
+          {
+            "key": -41,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 3059
+          },
+          {
+            "key": -42,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Como estou me sentindo?",
+            "__gohashid": 3066
+          },
+          {
+            "key": -44,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 3110
+          },
+          {
+            "key": -43,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightcoral",
+            "isGroup": false,
+            "group": "",
+            "emotion": "anger",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 21990
+          },
+          {
+            "key": -46,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo com raiva.",
+            "__gohashid": 80966
+          },
+          {
+            "key": 1621254042909,
+            "name": "Listen_33",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 126848
+          },
+          {
+            "key": 1621254416136,
+            "name": "Condition_35",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "",
+            "opt": 4,
+            "__gohashid": 166398
+          },
+          {
+            "key": 1621254188549,
+            "name": "Condition_34",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "raiva",
+            "opt": 2,
+            "__gohashid": 187547
+          },
+          {
+            "key": 1620728684425,
+            "name": "Condition_6",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "triste",
+            "opt": 2,
+            "__gohashid": 189897
+          },
+          {
+            "key": -45,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 93690
+          },
+          {
+            "key": -47,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 93698
+          },
+          {
+            "key": -48,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Como estou me sentindo?",
+            "__gohashid": 93716
+          },
+          {
+            "key": -49,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 93733
+          },
+          {
+            "key": -51,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 93767
+          },
+          {
+            "key": -55,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 93835
+          },
+          {
+            "key": -56,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 93852
+          },
+          {
+            "key": -57,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 93869
+          },
+          {
+            "key": -59,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 93903
+          },
+          {
+            "key": -60,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 93920
+          },
+          {
+            "key": -61,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 93937
+          },
+          {
+            "key": -62,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 93963
+          },
+          {
+            "key": -63,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 93980
+          },
+          {
+            "key": -64,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 93997
+          },
+          {
+            "key": -65,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 94014
+          },
+          {
+            "key": -66,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 94031
+          },
+          {
+            "key": -50,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 123960
+          },
+          {
+            "key": 1621258176405,
+            "name": "Listen_36",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 131011
+          },
+          {
+            "key": 1621258216840,
+            "name": "Condition_37",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "feliz",
+            "opt": 2,
+            "__gohashid": 144457
+          },
+          {
+            "key": 1621258240472,
+            "name": "Condition_38",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "",
+            "opt": 4,
+            "__gohashid": 148086
+          },
+          {
+            "key": -58,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo feliz.",
+            "__gohashid": 173100
+          },
+          {
+            "key": -67,
+            "name": "Talk_32",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Foi muito bom jogar com você, $1",
+            "__gohashid": 184028
+          },
+          {
+            "key": 1620950723187,
+            "name": "Audio_35",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start3",
+            "wait": true,
+            "__gohashid": 184036
+          },
+          {
+            "key": 1620733386113,
+            "name": "Talk_1",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Olá! Eu sou o robô Eva!",
+            "__gohashid": 239335
+          },
+          {
+            "key": 1620733432737,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start",
+            "wait": true,
+            "__gohashid": 239342
+          },
+          {
+            "key": 1620746185406,
+            "name": "Eva_Emotion_14",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239349
+          },
+          {
+            "key": 1620746215162,
+            "name": "Eva_Emotion_15",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 239377
+          },
+          {
+            "key": 1620746243268,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239395
+          },
+          {
+            "key": 1620733675681,
+            "name": "Audio_6",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-game-intro",
+            "wait": true,
+            "__gohashid": 239412
+          },
+          {
+            "key": 1620733407447,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos jogar o jogo das emoções?",
+            "__gohashid": 239429
+          },
+          {
+            "key": 1620745309081,
+            "name": "Talk_13",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Que legal!",
+            "__gohashid": 239455
+          },
+          {
+            "key": 1620745289404,
+            "name": "Listen_12",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "Nombre",
+            "__gohashid": 239462
+          },
+          {
+            "key": 1620745278649,
+            "name": "Audio_11",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 239469
+          },
+          {
+            "key": 1620745216796,
+            "name": "Talk_10",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Qual o seu nome?",
+            "__gohashid": 239487
+          },
+          {
+            "key": 1620940320192,
+            "name": "Talk_14",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos lá então $",
+            "__gohashid": 239513
+          },
+          {
+            "key": 1621249044442,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 239531
+          },
+          {
+            "key": 1621250248314,
+            "name": "Eva_Emotion_20",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239557
+          },
+          {
+            "key": 1621249545118,
+            "name": "Talk_16",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu vou te mostrar quais são as minhas emoções",
+            "__gohashid": 239574
+          },
+          {
+            "key": 1621250065799,
+            "name": "Voice_17",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 239581
+          },
+          {
+            "key": -84,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 239608
+          },
+          {
+            "key": 1621250214393,
+            "name": "Talk_18",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu fico assim quando estou feliz!",
+            "__gohashid": 239625
+          },
+          {
+            "key": 1621250288949,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 239642
+          },
+          {
+            "key": 1621250371147,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu fico assim quando estou triste!",
+            "__gohashid": 239659
+          },
+          {
+            "key": 1621250399348,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 239666
+          },
+          {
+            "key": 1621250501987,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239683
+          },
+          {
+            "key": -11,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 239710
+          },
+          {
+            "key": -12,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239717
+          },
+          {
+            "key": -10,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "emotion": "sad",
+            "level": 0,
+            "__gohashid": 239735
+          },
+          {
+            "key": -13,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu fico assim quando estou com raiva!",
+            "__gohashid": 239752
+          },
+          {
+            "key": -17,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 239769
+          },
+          {
+            "key": -18,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239776
+          },
+          {
+            "key": -16,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightcoral",
+            "isGroup": false,
+            "emotion": "anger",
+            "level": 0,
+            "__gohashid": 239794
+          },
+          {
+            "key": -14,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 239811
+          },
+          {
+            "key": -15,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 239837
+          },
+          {
+            "key": 1621251240677,
+            "name": "Talk_24",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos começar o jogo",
+            "__gohashid": 239863
+          }
+        ],
+        "link": [
+          {
+            "from": 1620728774382,
+            "to": 1620728817402,
+            "__gohashid": 100875
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620728684425,
+            "__gohashid": 100893
+          },
+          {
+            "from": 1620728684425,
+            "to": 1620728774382,
+            "__gohashid": 100903
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620729134576,
+            "__gohashid": 100919
+          },
+          {
+            "from": 1620728291871,
+            "to": 1620728314878,
+            "__gohashid": 100936
+          },
+          {
+            "__gohashid": 100954,
+            "from": 1620732512292,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 100971,
+            "from": 1620729134576,
+            "to": 1620733971530
+          },
+          {
+            "__gohashid": 101031,
+            "from": 1620728817402,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620742147518,
+            "to": 1620742974571,
+            "__gohashid": 101048
+          },
+          {
+            "from": 1620747134736,
+            "to": 1620747170149,
+            "__gohashid": 101072
+          },
+          {
+            "__gohashid": 101099,
+            "from": 1620730726659,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 101123,
+            "from": 1620733187556,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620732674409,
+            "to": 1620732844018,
+            "__gohashid": 101140
+          },
+          {
+            "__gohashid": 101151,
+            "from": 1620732844018,
+            "to": 1620747134736
+          },
+          {
+            "__gohashid": 101167,
+            "from": 1620733971530,
+            "to": 1620733932927
+          },
+          {
+            "__gohashid": 101177,
+            "from": 1620733932927,
+            "to": 1620733187556
+          },
+          {
+            "__gohashid": 101186,
+            "from": 1620733932927,
+            "to": 1620732674409
+          },
+          {
+            "__gohashid": 30928,
+            "from": 1620728314878,
+            "to": 1621251724853
+          },
+          {
+            "__gohashid": 72899,
+            "from": 1621251818863,
+            "to": 1620728331861
+          },
+          {
+            "__gohashid": 73232,
+            "from": 1621251724853,
+            "to": 1621251818863
+          },
+          {
+            "__gohashid": 79854,
+            "from": 1620728331861,
+            "to": 1620728620039
+          },
+          {
+            "from": -26,
+            "to": -27,
+            "__gohashid": 2825
+          },
+          {
+            "__gohashid": 2861,
+            "from": -29,
+            "to": -24
+          },
+          {
+            "__gohashid": 2913,
+            "from": -27,
+            "to": -32
+          },
+          {
+            "from": -32,
+            "to": -33,
+            "__gohashid": 2930
+          },
+          {
+            "from": -34,
+            "to": -35,
+            "__gohashid": 2954
+          },
+          {
+            "__gohashid": 2981,
+            "from": -36,
+            "to": -24
+          },
+          {
+            "__gohashid": 3005,
+            "from": -38,
+            "to": -32
+          },
+          {
+            "from": -37,
+            "to": -39,
+            "__gohashid": 3022
+          },
+          {
+            "__gohashid": 3033,
+            "from": -39,
+            "to": -34
+          },
+          {
+            "from": -24,
+            "to": -42,
+            "__gohashid": 3073
+          },
+          {
+            "__gohashid": 3083,
+            "from": -42,
+            "to": -41
+          },
+          {
+            "__gohashid": 3100,
+            "from": -41,
+            "to": -43
+          },
+          {
+            "__gohashid": 3117,
+            "from": -43,
+            "to": -44
+          },
+          {
+            "__gohashid": 3169,
+            "from": -30,
+            "to": -46
+          },
+          {
+            "__gohashid": 3179,
+            "from": -46,
+            "to": -38
+          },
+          {
+            "__gohashid": 3188,
+            "from": -46,
+            "to": -37
+          },
+          {
+            "__gohashid": 24380,
+            "from": 1620742974571,
+            "to": -36
+          },
+          {
+            "__gohashid": 111110,
+            "from": 1620747170149,
+            "to": 1620732512292
+          },
+          {
+            "__gohashid": 113733,
+            "from": -35,
+            "to": -29
+          },
+          {
+            "__gohashid": 129473,
+            "from": -44,
+            "to": 1621254042909
+          },
+          {
+            "__gohashid": 149154,
+            "from": 1621254042909,
+            "to": 1621254188549
+          },
+          {
+            "__gohashid": 155031,
+            "from": 1621254188549,
+            "to": -26
+          },
+          {
+            "__gohashid": 168891,
+            "from": 1621254042909,
+            "to": 1621254416136
+          },
+          {
+            "__gohashid": 174601,
+            "from": 1621254416136,
+            "to": -30
+          },
+          {
+            "__gohashid": 93705,
+            "from": -45,
+            "to": -47
+          },
+          {
+            "from": -47,
+            "to": -48,
+            "__gohashid": 93723
+          },
+          {
+            "__gohashid": 93740,
+            "from": -48,
+            "to": -49
+          },
+          {
+            "__gohashid": 93757,
+            "from": -49,
+            "to": -50
+          },
+          {
+            "__gohashid": 93774,
+            "from": -50,
+            "to": -51
+          },
+          {
+            "from": -55,
+            "to": -57,
+            "__gohashid": 93876
+          },
+          {
+            "__gohashid": 93893,
+            "from": -56,
+            "to": -58
+          },
+          {
+            "__gohashid": 93910,
+            "from": -58,
+            "to": -59
+          },
+          {
+            "__gohashid": 93927,
+            "from": -58,
+            "to": -60
+          },
+          {
+            "__gohashid": 93944,
+            "from": -57,
+            "to": -61
+          },
+          {
+            "__gohashid": 93954,
+            "from": -59,
+            "to": -61
+          },
+          {
+            "from": -60,
+            "to": -62,
+            "__gohashid": 93970
+          },
+          {
+            "from": -61,
+            "to": -63,
+            "__gohashid": 93987
+          },
+          {
+            "__gohashid": 94004,
+            "from": -62,
+            "to": -64
+          },
+          {
+            "from": -64,
+            "to": -65,
+            "__gohashid": 94021
+          },
+          {
+            "__gohashid": 94038,
+            "from": -66,
+            "to": -47
+          },
+          {
+            "__gohashid": 94048,
+            "from": -65,
+            "to": -66
+          },
+          {
+            "__gohashid": 104505,
+            "from": -33,
+            "to": -45
+          },
+          {
+            "__gohashid": 134802,
+            "from": -51,
+            "to": 1621258176405
+          },
+          {
+            "from": 1621258176405,
+            "to": 1621258216840,
+            "__gohashid": 144460
+          },
+          {
+            "from": 1621258176405,
+            "to": 1621258240472,
+            "__gohashid": 148089
+          },
+          {
+            "__gohashid": 151828,
+            "from": 1621258240472,
+            "to": -56
+          },
+          {
+            "__gohashid": 152827,
+            "from": 1621258216840,
+            "to": -55
+          },
+          {
+            "from": -67,
+            "to": 1620950723187,
+            "__gohashid": 184043
+          },
+          {
+            "__gohashid": 185612,
+            "from": -63,
+            "to": -67
+          },
+          {
+            "__gohashid": 239356,
+            "from": 1620746185406,
+            "to": 1620733386113
+          },
+          {
+            "__gohashid": 239384,
+            "from": 1620746215162,
+            "to": 1620733432737
+          },
+          {
+            "from": 1620733432737,
+            "to": 1620746243268,
+            "__gohashid": 239402
+          },
+          {
+            "from": 1620733386113,
+            "to": 1620733675681,
+            "__gohashid": 239419
+          },
+          {
+            "from": 1620733407447,
+            "to": 1620746215162,
+            "__gohashid": 239436
+          },
+          {
+            "__gohashid": 239446,
+            "from": 1620733675681,
+            "to": 1620733407447
+          },
+          {
+            "from": 1620745278649,
+            "to": 1620745289404,
+            "__gohashid": 239476
+          },
+          {
+            "from": 1620745216796,
+            "to": 1620745278649,
+            "__gohashid": 239494
+          },
+          {
+            "__gohashid": 239504,
+            "from": 1620746243268,
+            "to": 1620745216796
+          },
+          {
+            "from": 1620745309081,
+            "to": 1620940320192,
+            "__gohashid": 239520
+          },
+          {
+            "__gohashid": 239538,
+            "from": 1620745289404,
+            "to": 1621249044442
+          },
+          {
+            "__gohashid": 239548,
+            "from": 1621249044442,
+            "to": 1620745309081
+          },
+          {
+            "__gohashid": 239564,
+            "from": 1620940320192,
+            "to": 1621250248314
+          },
+          {
+            "__gohashid": 239588,
+            "from": 1621250065799,
+            "to": 1621249545118
+          },
+          {
+            "__gohashid": 239599,
+            "from": 1621250248314,
+            "to": 1621250065799
+          },
+          {
+            "__gohashid": 239615,
+            "from": 1621249545118,
+            "to": -84
+          },
+          {
+            "from": -84,
+            "to": 1621250214393,
+            "__gohashid": 239632
+          },
+          {
+            "__gohashid": 239649,
+            "from": 1621250214393,
+            "to": 1621250288949
+          },
+          {
+            "__gohashid": 239673,
+            "from": 1621250288949,
+            "to": 1621250399348
+          },
+          {
+            "from": 1621250399348,
+            "to": 1621250501987,
+            "__gohashid": 239690
+          },
+          {
+            "__gohashid": 239700,
+            "from": 1621250501987,
+            "to": 1621250371147
+          },
+          {
+            "from": -11,
+            "to": -12,
+            "__gohashid": 239724
+          },
+          {
+            "__gohashid": 239742,
+            "from": -10,
+            "to": -11
+          },
+          {
+            "__gohashid": 239759,
+            "from": -12,
+            "to": -13
+          },
+          {
+            "from": -17,
+            "to": -18,
+            "__gohashid": 239783
+          },
+          {
+            "__gohashid": 239801,
+            "from": -16,
+            "to": -17
+          },
+          {
+            "__gohashid": 239818,
+            "from": 1621250371147,
+            "to": -14
+          },
+          {
+            "__gohashid": 239828,
+            "from": -14,
+            "to": -10
+          },
+          {
+            "__gohashid": 239844,
+            "from": -15,
+            "to": -16
+          },
+          {
+            "__gohashid": 239854,
+            "from": -13,
+            "to": -15
+          },
+          {
+            "__gohashid": 239870,
+            "from": -18,
+            "to": 1621251240677
+          },
+          {
+            "__gohashid": 268983,
+            "from": 1620944655887,
+            "to": 1620746185406
+          },
+          {
+            "__gohashid": 281612,
+            "from": 1621251240677,
+            "to": 1620730726659
+          }
+        ]
+      }
+    },
+    {
+      "_id": "39e46e7b-7784-4512-aa50-7c0478136be8",
+      "nombre": "game-emotions-fases 1, 2 e 3_bkp",
+      "data": {
+        "node": [
+          {
+            "key": 1620728291871,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 100828
+          },
+          {
+            "key": 1620728620039,
+            "name": "Listen_5",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "",
+            "__gohashid": 100843
+          },
+          {
+            "key": 1620728774382,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 100861
+          },
+          {
+            "key": 1620728817402,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 100868
+          },
+          {
+            "key": 1620729134576,
+            "name": "Condition_9",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "",
+            "opt": 4,
+            "__gohashid": 100912
+          },
+          {
+            "key": 1620732512292,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 100947
+          },
+          {
+            "key": 1620733971530,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 100964
+          },
+          {
+            "key": 1620742147518,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 101024
+          },
+          {
+            "key": 1620742974571,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 101041
+          },
+          {
+            "key": 1620747134736,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 101058
+          },
+          {
+            "key": 1620747170149,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 101065
+          },
+          {
+            "key": 1620730726659,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 101092
+          },
+          {
+            "key": 1620732674409,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 101109
+          },
+          {
+            "key": 1620733187556,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 101116
+          },
+          {
+            "key": 1620732844018,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 101133
+          },
+          {
+            "key": 1620944655887,
+            "name": "Voice_28",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 101195
+          },
+          {
+            "key": 1621251724853,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 29465
+          },
+          {
+            "key": 1620728314878,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Como estou me sentindo?",
+            "__gohashid": 40389
+          },
+          {
+            "key": 1621251818863,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "emotion": "sad",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 87632
+          },
+          {
+            "key": 1620728331861,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 88876
+          },
+          {
+            "key": 1620733932927,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo triste.",
+            "__gohashid": 2016
+          },
+          {
+            "key": -24,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 2796
+          },
+          {
+            "key": -26,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 2811
+          },
+          {
+            "key": -27,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 2818
+          },
+          {
+            "key": -29,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 2854
+          },
+          {
+            "key": -30,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 2872
+          },
+          {
+            "key": -32,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 2906
+          },
+          {
+            "key": -33,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 2923
+          },
+          {
+            "key": -34,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 2940
+          },
+          {
+            "key": -35,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 2947
+          },
+          {
+            "key": -36,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 2974
+          },
+          {
+            "key": -37,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 2991
+          },
+          {
+            "key": -38,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 2998
+          },
+          {
+            "key": -39,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 3015
+          },
+          {
+            "key": -41,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 3059
+          },
+          {
+            "key": -42,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Como estou me sentindo?",
+            "__gohashid": 3066
+          },
+          {
+            "key": -44,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 3110
+          },
+          {
+            "key": -43,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightcoral",
+            "isGroup": false,
+            "group": "",
+            "emotion": "anger",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 21990
+          },
+          {
+            "key": -46,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo com raiva.",
+            "__gohashid": 80966
+          },
+          {
+            "key": 1621254042909,
+            "name": "Listen_33",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 126848
+          },
+          {
+            "key": 1621254416136,
+            "name": "Condition_35",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "",
+            "opt": 4,
+            "__gohashid": 166398
+          },
+          {
+            "key": 1621254188549,
+            "name": "Condition_34",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "raiva",
+            "opt": 2,
+            "__gohashid": 187547
+          },
+          {
+            "key": 1620728684425,
+            "name": "Condition_6",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "triste",
+            "opt": 2,
+            "__gohashid": 189897
+          },
+          {
+            "key": -45,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 93690
+          },
+          {
+            "key": -47,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 93698
+          },
+          {
+            "key": -48,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Como estou me sentindo?",
+            "__gohashid": 93716
+          },
+          {
+            "key": -49,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 93733
+          },
+          {
+            "key": -51,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 93767
+          },
+          {
+            "key": -55,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 93835
+          },
+          {
+            "key": -56,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 93852
+          },
+          {
+            "key": -57,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 93869
+          },
+          {
+            "key": -59,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 93903
+          },
+          {
+            "key": -60,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 93920
+          },
+          {
+            "key": -61,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 93937
+          },
+          {
+            "key": -62,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 93963
+          },
+          {
+            "key": -63,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 93980
+          },
+          {
+            "key": -64,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 93997
+          },
+          {
+            "key": -65,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 94014
+          },
+          {
+            "key": -66,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 94031
+          },
+          {
+            "key": -50,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 123960
+          },
+          {
+            "key": 1621258176405,
+            "name": "Listen_36",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 131011
+          },
+          {
+            "key": 1621258216840,
+            "name": "Condition_37",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "feliz",
+            "opt": 2,
+            "__gohashid": 144457
+          },
+          {
+            "key": 1621258240472,
+            "name": "Condition_38",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "",
+            "opt": 4,
+            "__gohashid": 148086
+          },
+          {
+            "key": -58,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo feliz.",
+            "__gohashid": 173100
+          },
+          {
+            "key": -67,
+            "name": "Talk_32",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Foi muito bom jogar com você, $1",
+            "__gohashid": 184028
+          },
+          {
+            "key": 1620950723187,
+            "name": "Audio_35",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start3",
+            "wait": true,
+            "__gohashid": 184036
+          }
+        ],
+        "link": [
+          {
+            "from": 1620728774382,
+            "to": 1620728817402,
+            "__gohashid": 100875
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620728684425,
+            "__gohashid": 100893
+          },
+          {
+            "from": 1620728684425,
+            "to": 1620728774382,
+            "__gohashid": 100903
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620729134576,
+            "__gohashid": 100919
+          },
+          {
+            "from": 1620728291871,
+            "to": 1620728314878,
+            "__gohashid": 100936
+          },
+          {
+            "__gohashid": 100954,
+            "from": 1620732512292,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 100971,
+            "from": 1620729134576,
+            "to": 1620733971530
+          },
+          {
+            "__gohashid": 101031,
+            "from": 1620728817402,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620742147518,
+            "to": 1620742974571,
+            "__gohashid": 101048
+          },
+          {
+            "from": 1620747134736,
+            "to": 1620747170149,
+            "__gohashid": 101072
+          },
+          {
+            "__gohashid": 101099,
+            "from": 1620730726659,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 101123,
+            "from": 1620733187556,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620732674409,
+            "to": 1620732844018,
+            "__gohashid": 101140
+          },
+          {
+            "__gohashid": 101151,
+            "from": 1620732844018,
+            "to": 1620747134736
+          },
+          {
+            "__gohashid": 101167,
+            "from": 1620733971530,
+            "to": 1620733932927
+          },
+          {
+            "__gohashid": 101177,
+            "from": 1620733932927,
+            "to": 1620733187556
+          },
+          {
+            "__gohashid": 101186,
+            "from": 1620733932927,
+            "to": 1620732674409
+          },
+          {
+            "__gohashid": 101202,
+            "from": 1620944655887,
+            "to": 1620730726659
+          },
+          {
+            "__gohashid": 30928,
+            "from": 1620728314878,
+            "to": 1621251724853
+          },
+          {
+            "__gohashid": 72899,
+            "from": 1621251818863,
+            "to": 1620728331861
+          },
+          {
+            "__gohashid": 73232,
+            "from": 1621251724853,
+            "to": 1621251818863
+          },
+          {
+            "__gohashid": 79854,
+            "from": 1620728331861,
+            "to": 1620728620039
+          },
+          {
+            "from": -26,
+            "to": -27,
+            "__gohashid": 2825
+          },
+          {
+            "__gohashid": 2861,
+            "from": -29,
+            "to": -24
+          },
+          {
+            "__gohashid": 2913,
+            "from": -27,
+            "to": -32
+          },
+          {
+            "from": -32,
+            "to": -33,
+            "__gohashid": 2930
+          },
+          {
+            "from": -34,
+            "to": -35,
+            "__gohashid": 2954
+          },
+          {
+            "__gohashid": 2981,
+            "from": -36,
+            "to": -24
+          },
+          {
+            "__gohashid": 3005,
+            "from": -38,
+            "to": -32
+          },
+          {
+            "from": -37,
+            "to": -39,
+            "__gohashid": 3022
+          },
+          {
+            "__gohashid": 3033,
+            "from": -39,
+            "to": -34
+          },
+          {
+            "from": -24,
+            "to": -42,
+            "__gohashid": 3073
+          },
+          {
+            "__gohashid": 3083,
+            "from": -42,
+            "to": -41
+          },
+          {
+            "__gohashid": 3100,
+            "from": -41,
+            "to": -43
+          },
+          {
+            "__gohashid": 3117,
+            "from": -43,
+            "to": -44
+          },
+          {
+            "__gohashid": 3169,
+            "from": -30,
+            "to": -46
+          },
+          {
+            "__gohashid": 3179,
+            "from": -46,
+            "to": -38
+          },
+          {
+            "__gohashid": 3188,
+            "from": -46,
+            "to": -37
+          },
+          {
+            "__gohashid": 24380,
+            "from": 1620742974571,
+            "to": -36
+          },
+          {
+            "__gohashid": 111110,
+            "from": 1620747170149,
+            "to": 1620732512292
+          },
+          {
+            "__gohashid": 113733,
+            "from": -35,
+            "to": -29
+          },
+          {
+            "__gohashid": 129473,
+            "from": -44,
+            "to": 1621254042909
+          },
+          {
+            "__gohashid": 149154,
+            "from": 1621254042909,
+            "to": 1621254188549
+          },
+          {
+            "__gohashid": 155031,
+            "from": 1621254188549,
+            "to": -26
+          },
+          {
+            "__gohashid": 168891,
+            "from": 1621254042909,
+            "to": 1621254416136
+          },
+          {
+            "__gohashid": 174601,
+            "from": 1621254416136,
+            "to": -30
+          },
+          {
+            "__gohashid": 93705,
+            "from": -45,
+            "to": -47
+          },
+          {
+            "from": -47,
+            "to": -48,
+            "__gohashid": 93723
+          },
+          {
+            "__gohashid": 93740,
+            "from": -48,
+            "to": -49
+          },
+          {
+            "__gohashid": 93757,
+            "from": -49,
+            "to": -50
+          },
+          {
+            "__gohashid": 93774,
+            "from": -50,
+            "to": -51
+          },
+          {
+            "from": -55,
+            "to": -57,
+            "__gohashid": 93876
+          },
+          {
+            "__gohashid": 93893,
+            "from": -56,
+            "to": -58
+          },
+          {
+            "__gohashid": 93910,
+            "from": -58,
+            "to": -59
+          },
+          {
+            "__gohashid": 93927,
+            "from": -58,
+            "to": -60
+          },
+          {
+            "__gohashid": 93944,
+            "from": -57,
+            "to": -61
+          },
+          {
+            "__gohashid": 93954,
+            "from": -59,
+            "to": -61
+          },
+          {
+            "from": -60,
+            "to": -62,
+            "__gohashid": 93970
+          },
+          {
+            "from": -61,
+            "to": -63,
+            "__gohashid": 93987
+          },
+          {
+            "__gohashid": 94004,
+            "from": -62,
+            "to": -64
+          },
+          {
+            "from": -64,
+            "to": -65,
+            "__gohashid": 94021
+          },
+          {
+            "__gohashid": 94038,
+            "from": -66,
+            "to": -47
+          },
+          {
+            "__gohashid": 94048,
+            "from": -65,
+            "to": -66
+          },
+          {
+            "__gohashid": 104505,
+            "from": -33,
+            "to": -45
+          },
+          {
+            "__gohashid": 134802,
+            "from": -51,
+            "to": 1621258176405
+          },
+          {
+            "from": 1621258176405,
+            "to": 1621258216840,
+            "__gohashid": 144460
+          },
+          {
+            "from": 1621258176405,
+            "to": 1621258240472,
+            "__gohashid": 148089
+          },
+          {
+            "__gohashid": 151828,
+            "from": 1621258240472,
+            "to": -56
+          },
+          {
+            "__gohashid": 152827,
+            "from": 1621258216840,
+            "to": -55
+          },
+          {
+            "from": -67,
+            "to": 1620950723187,
+            "__gohashid": 184043
+          },
+          {
+            "__gohashid": 185612,
+            "from": -63,
+            "to": -67
+          }
+        ]
+      }
+    },
+    {
+      "_id": "294951b8-9b4b-4577-b597-794e6a38a71b",
+      "nombre": "game-emotions-fases 1, 2 e 3 COMPLETO",
+      "data": {
+        "node": [
+          {
+            "key": 1620728291871,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 100828
+          },
+          {
+            "key": 1620728620039,
+            "name": "Listen_5",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "",
+            "__gohashid": 100843
+          },
+          {
+            "key": 1620728774382,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 100861
+          },
+          {
+            "key": 1620728817402,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 100868
+          },
+          {
+            "key": 1620729134576,
+            "name": "Condition_9",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "",
+            "opt": 4,
+            "__gohashid": 100912
+          },
+          {
+            "key": 1620732512292,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 100947
+          },
+          {
+            "key": 1620733971530,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 100964
+          },
+          {
+            "key": 1620742147518,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 101024
+          },
+          {
+            "key": 1620742974571,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 101041
+          },
+          {
+            "key": 1620747134736,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 101058
+          },
+          {
+            "key": 1620747170149,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 101065
+          },
+          {
+            "key": 1620730726659,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 101092
+          },
+          {
+            "key": 1620732674409,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 101109
+          },
+          {
+            "key": 1620733187556,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 101116
+          },
+          {
+            "key": 1620732844018,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 101133
+          },
+          {
+            "key": 1620944655887,
+            "name": "Voice_28",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 101195
+          },
+          {
+            "key": 1621251724853,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 29465
+          },
+          {
+            "key": 1620728314878,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Como estou me sentindo?",
+            "__gohashid": 40389
+          },
+          {
+            "key": 1621251818863,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "emotion": "sad",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 87632
+          },
+          {
+            "key": 1620728331861,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 88876
+          },
+          {
+            "key": 1620733932927,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo triste.",
+            "__gohashid": 2016
+          },
+          {
+            "key": -24,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 2796
+          },
+          {
+            "key": -26,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 2811
+          },
+          {
+            "key": -27,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 2818
+          },
+          {
+            "key": -29,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 2854
+          },
+          {
+            "key": -30,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 2872
+          },
+          {
+            "key": -32,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 2906
+          },
+          {
+            "key": -33,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 2923
+          },
+          {
+            "key": -34,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 2940
+          },
+          {
+            "key": -35,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 2947
+          },
+          {
+            "key": -36,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 2974
+          },
+          {
+            "key": -37,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 2991
+          },
+          {
+            "key": -38,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 2998
+          },
+          {
+            "key": -39,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 3015
+          },
+          {
+            "key": -41,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 3059
+          },
+          {
+            "key": -42,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Como estou me sentindo?",
+            "__gohashid": 3066
+          },
+          {
+            "key": -44,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 3110
+          },
+          {
+            "key": -43,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightcoral",
+            "isGroup": false,
+            "group": "",
+            "emotion": "anger",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 21990
+          },
+          {
+            "key": -46,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo com raiva.",
+            "__gohashid": 80966
+          },
+          {
+            "key": 1621254042909,
+            "name": "Listen_33",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 126848
+          },
+          {
+            "key": 1621254416136,
+            "name": "Condition_35",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "",
+            "opt": 4,
+            "__gohashid": 166398
+          },
+          {
+            "key": 1621254188549,
+            "name": "Condition_34",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "raiva",
+            "opt": 2,
+            "__gohashid": 187547
+          },
+          {
+            "key": 1620728684425,
+            "name": "Condition_6",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "triste",
+            "opt": 2,
+            "__gohashid": 189897
+          },
+          {
+            "key": -45,
+            "name": "Counter_12",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 1,
+            "__gohashid": 93690
+          },
+          {
+            "key": -47,
+            "name": "Eva_Emotion_1",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 93698
+          },
+          {
+            "key": -48,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Como estou me sentindo?",
+            "__gohashid": 93716
+          },
+          {
+            "key": -49,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Feliz, triste ou com raiva?",
+            "__gohashid": 93733
+          },
+          {
+            "key": -51,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 93767
+          },
+          {
+            "key": -55,
+            "name": "Audio_7",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 93835
+          },
+          {
+            "key": -56,
+            "name": "Audio_22",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 93852
+          },
+          {
+            "key": -57,
+            "name": "Talk_8",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Muito bem! Você acertou!",
+            "__gohashid": 93869
+          },
+          {
+            "key": -59,
+            "name": "Condition_18",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 2",
+            "opt": 5,
+            "__gohashid": 93903
+          },
+          {
+            "key": -60,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "#tentativa == 1",
+            "opt": 5,
+            "__gohashid": 93920
+          },
+          {
+            "key": -61,
+            "name": "Eva_Emotion_25",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 93937
+          },
+          {
+            "key": -62,
+            "name": "Counter_17",
+            "type": "counter",
+            "color": "lightblue",
+            "isGroup": false,
+            "count": "tentativa",
+            "ops": "assign",
+            "value": 2,
+            "__gohashid": 93963
+          },
+          {
+            "key": -63,
+            "name": "Wait_25",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 3000,
+            "__gohashid": 93980
+          },
+          {
+            "key": -64,
+            "name": "Wait_26",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 93997
+          },
+          {
+            "key": -65,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos tentar mais uma vez!",
+            "__gohashid": 94014
+          },
+          {
+            "key": -66,
+            "name": "Wait_15",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 2000,
+            "__gohashid": 94031
+          },
+          {
+            "key": -50,
+            "name": "Eva_Emotion_30",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "speed": null,
+            "__gohashid": 123960
+          },
+          {
+            "key": 1621258176405,
+            "name": "Listen_36",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 131011
+          },
+          {
+            "key": 1621258216840,
+            "name": "Condition_37",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "feliz",
+            "opt": 2,
+            "__gohashid": 144457
+          },
+          {
+            "key": 1621258240472,
+            "name": "Condition_38",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "",
+            "opt": 4,
+            "__gohashid": 148086
+          },
+          {
+            "key": -58,
+            "name": "Talk_21",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Eu estou me sentindo feliz.",
+            "__gohashid": 173100
+          },
+          {
+            "key": -67,
+            "name": "Talk_32",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Foi muito bom jogar com você, $1",
+            "__gohashid": 184028
+          },
+          {
+            "key": 1620950723187,
+            "name": "Audio_35",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start3",
+            "wait": true,
+            "__gohashid": 184036
+          },
+          {
+            "key": 1620733386113,
+            "name": "Talk_1",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Olá! Eu sou o robô Eva!",
+            "__gohashid": 239335
+          },
+          {
+            "key": 1620733432737,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-start",
+            "wait": true,
+            "__gohashid": 239342
+          },
+          {
+            "key": 1620746185406,
+            "name": "Eva_Emotion_14",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239349
+          },
+          {
+            "key": 1620746215162,
+            "name": "Eva_Emotion_15",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 239377
+          },
+          {
+            "key": 1620746243268,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239395
+          },
+          {
+            "key": 1620733675681,
+            "name": "Audio_6",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-game-intro",
+            "wait": true,
+            "__gohashid": 239412
+          },
+          {
+            "key": 1620733407447,
+            "name": "Talk_2",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos jogar o jogo das emoções?",
+            "__gohashid": 239429
+          },
+          {
+            "key": 1620745309081,
+            "name": "Talk_13",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Que legal!",
+            "__gohashid": 239455
+          },
+          {
+            "key": 1620745289404,
+            "name": "Listen_12",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "Nombre",
+            "__gohashid": 239462
+          },
+          {
+            "key": 1620745278649,
+            "name": "Audio_11",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 239469
+          },
+          {
+            "key": 1620745216796,
+            "name": "Talk_10",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Qual o seu nome?",
+            "__gohashid": 239487
+          },
+          {
+            "key": 1620940320192,
+            "name": "Talk_14",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos lá então $",
+            "__gohashid": 239513
+          },
+          {
+            "key": 1621249044442,
+            "name": "Eva_Emotion_16",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 239531
+          },
+          {
+            "key": 1621250248314,
+            "name": "Eva_Emotion_20",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239557
+          },
+          {
+            "key": 1621249545118,
+            "name": "Talk_16",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu vou te mostrar quais são as minhas emoções",
+            "__gohashid": 239574
+          },
+          {
+            "key": 1621250065799,
+            "name": "Voice_17",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 239581
+          },
+          {
+            "key": -84,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 239608
+          },
+          {
+            "key": 1621250214393,
+            "name": "Talk_18",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu fico assim quando estou feliz!",
+            "__gohashid": 239625
+          },
+          {
+            "key": 1621250288949,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 239642
+          },
+          {
+            "key": 1621250371147,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu fico assim quando estou triste!",
+            "__gohashid": 239659
+          },
+          {
+            "key": 1621250399348,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 239666
+          },
+          {
+            "key": 1621250501987,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239683
+          },
+          {
+            "key": -11,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 239710
+          },
+          {
+            "key": -12,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239717
+          },
+          {
+            "key": -10,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "emotion": "sad",
+            "level": 0,
+            "__gohashid": 239735
+          },
+          {
+            "key": -13,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Eu fico assim quando estou com raiva!",
+            "__gohashid": 239752
+          },
+          {
+            "key": -17,
+            "name": "Wait_23",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "time": 5000,
+            "__gohashid": 239769
+          },
+          {
+            "key": -18,
+            "name": "Eva_Emotion_24",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 239776
+          },
+          {
+            "key": -16,
+            "name": "Eva_Emotion_21",
+            "type": "emotion",
+            "color": "lightcoral",
+            "isGroup": false,
+            "emotion": "anger",
+            "level": 0,
+            "__gohashid": 239794
+          },
+          {
+            "key": -14,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 239811
+          },
+          {
+            "key": -15,
+            "name": "Audio_3",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "src": "mario-sound1",
+            "wait": false,
+            "__gohashid": 239837
+          },
+          {
+            "key": 1621251240677,
+            "name": "Talk_24",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "Vamos começar o jogo",
+            "__gohashid": 239863
+          }
+        ],
+        "link": [
+          {
+            "from": 1620728774382,
+            "to": 1620728817402,
+            "__gohashid": 100875
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620728684425,
+            "__gohashid": 100893
+          },
+          {
+            "from": 1620728684425,
+            "to": 1620728774382,
+            "__gohashid": 100903
+          },
+          {
+            "from": 1620728620039,
+            "to": 1620729134576,
+            "__gohashid": 100919
+          },
+          {
+            "from": 1620728291871,
+            "to": 1620728314878,
+            "__gohashid": 100936
+          },
+          {
+            "__gohashid": 100954,
+            "from": 1620732512292,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 100971,
+            "from": 1620729134576,
+            "to": 1620733971530
+          },
+          {
+            "__gohashid": 101031,
+            "from": 1620728817402,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620742147518,
+            "to": 1620742974571,
+            "__gohashid": 101048
+          },
+          {
+            "from": 1620747134736,
+            "to": 1620747170149,
+            "__gohashid": 101072
+          },
+          {
+            "__gohashid": 101099,
+            "from": 1620730726659,
+            "to": 1620728291871
+          },
+          {
+            "__gohashid": 101123,
+            "from": 1620733187556,
+            "to": 1620742147518
+          },
+          {
+            "from": 1620732674409,
+            "to": 1620732844018,
+            "__gohashid": 101140
+          },
+          {
+            "__gohashid": 101151,
+            "from": 1620732844018,
+            "to": 1620747134736
+          },
+          {
+            "__gohashid": 101167,
+            "from": 1620733971530,
+            "to": 1620733932927
+          },
+          {
+            "__gohashid": 101177,
+            "from": 1620733932927,
+            "to": 1620733187556
+          },
+          {
+            "__gohashid": 101186,
+            "from": 1620733932927,
+            "to": 1620732674409
+          },
+          {
+            "__gohashid": 30928,
+            "from": 1620728314878,
+            "to": 1621251724853
+          },
+          {
+            "__gohashid": 72899,
+            "from": 1621251818863,
+            "to": 1620728331861
+          },
+          {
+            "__gohashid": 73232,
+            "from": 1621251724853,
+            "to": 1621251818863
+          },
+          {
+            "__gohashid": 79854,
+            "from": 1620728331861,
+            "to": 1620728620039
+          },
+          {
+            "from": -26,
+            "to": -27,
+            "__gohashid": 2825
+          },
+          {
+            "__gohashid": 2861,
+            "from": -29,
+            "to": -24
+          },
+          {
+            "__gohashid": 2913,
+            "from": -27,
+            "to": -32
+          },
+          {
+            "from": -32,
+            "to": -33,
+            "__gohashid": 2930
+          },
+          {
+            "from": -34,
+            "to": -35,
+            "__gohashid": 2954
+          },
+          {
+            "__gohashid": 2981,
+            "from": -36,
+            "to": -24
+          },
+          {
+            "__gohashid": 3005,
+            "from": -38,
+            "to": -32
+          },
+          {
+            "from": -37,
+            "to": -39,
+            "__gohashid": 3022
+          },
+          {
+            "__gohashid": 3033,
+            "from": -39,
+            "to": -34
+          },
+          {
+            "from": -24,
+            "to": -42,
+            "__gohashid": 3073
+          },
+          {
+            "__gohashid": 3083,
+            "from": -42,
+            "to": -41
+          },
+          {
+            "__gohashid": 3100,
+            "from": -41,
+            "to": -43
+          },
+          {
+            "__gohashid": 3117,
+            "from": -43,
+            "to": -44
+          },
+          {
+            "__gohashid": 3169,
+            "from": -30,
+            "to": -46
+          },
+          {
+            "__gohashid": 3179,
+            "from": -46,
+            "to": -38
+          },
+          {
+            "__gohashid": 3188,
+            "from": -46,
+            "to": -37
+          },
+          {
+            "__gohashid": 24380,
+            "from": 1620742974571,
+            "to": -36
+          },
+          {
+            "__gohashid": 111110,
+            "from": 1620747170149,
+            "to": 1620732512292
+          },
+          {
+            "__gohashid": 113733,
+            "from": -35,
+            "to": -29
+          },
+          {
+            "__gohashid": 129473,
+            "from": -44,
+            "to": 1621254042909
+          },
+          {
+            "__gohashid": 149154,
+            "from": 1621254042909,
+            "to": 1621254188549
+          },
+          {
+            "__gohashid": 155031,
+            "from": 1621254188549,
+            "to": -26
+          },
+          {
+            "__gohashid": 168891,
+            "from": 1621254042909,
+            "to": 1621254416136
+          },
+          {
+            "__gohashid": 174601,
+            "from": 1621254416136,
+            "to": -30
+          },
+          {
+            "__gohashid": 93705,
+            "from": -45,
+            "to": -47
+          },
+          {
+            "from": -47,
+            "to": -48,
+            "__gohashid": 93723
+          },
+          {
+            "__gohashid": 93740,
+            "from": -48,
+            "to": -49
+          },
+          {
+            "__gohashid": 93757,
+            "from": -49,
+            "to": -50
+          },
+          {
+            "__gohashid": 93774,
+            "from": -50,
+            "to": -51
+          },
+          {
+            "from": -55,
+            "to": -57,
+            "__gohashid": 93876
+          },
+          {
+            "__gohashid": 93893,
+            "from": -56,
+            "to": -58
+          },
+          {
+            "__gohashid": 93910,
+            "from": -58,
+            "to": -59
+          },
+          {
+            "__gohashid": 93927,
+            "from": -58,
+            "to": -60
+          },
+          {
+            "__gohashid": 93944,
+            "from": -57,
+            "to": -61
+          },
+          {
+            "__gohashid": 93954,
+            "from": -59,
+            "to": -61
+          },
+          {
+            "from": -60,
+            "to": -62,
+            "__gohashid": 93970
+          },
+          {
+            "from": -61,
+            "to": -63,
+            "__gohashid": 93987
+          },
+          {
+            "__gohashid": 94004,
+            "from": -62,
+            "to": -64
+          },
+          {
+            "from": -64,
+            "to": -65,
+            "__gohashid": 94021
+          },
+          {
+            "__gohashid": 94038,
+            "from": -66,
+            "to": -47
+          },
+          {
+            "__gohashid": 94048,
+            "from": -65,
+            "to": -66
+          },
+          {
+            "__gohashid": 104505,
+            "from": -33,
+            "to": -45
+          },
+          {
+            "__gohashid": 134802,
+            "from": -51,
+            "to": 1621258176405
+          },
+          {
+            "from": 1621258176405,
+            "to": 1621258216840,
+            "__gohashid": 144460
+          },
+          {
+            "from": 1621258176405,
+            "to": 1621258240472,
+            "__gohashid": 148089
+          },
+          {
+            "__gohashid": 151828,
+            "from": 1621258240472,
+            "to": -56
+          },
+          {
+            "__gohashid": 152827,
+            "from": 1621258216840,
+            "to": -55
+          },
+          {
+            "from": -67,
+            "to": 1620950723187,
+            "__gohashid": 184043
+          },
+          {
+            "__gohashid": 185612,
+            "from": -63,
+            "to": -67
+          },
+          {
+            "__gohashid": 239356,
+            "from": 1620746185406,
+            "to": 1620733386113
+          },
+          {
+            "__gohashid": 239384,
+            "from": 1620746215162,
+            "to": 1620733432737
+          },
+          {
+            "from": 1620733432737,
+            "to": 1620746243268,
+            "__gohashid": 239402
+          },
+          {
+            "from": 1620733386113,
+            "to": 1620733675681,
+            "__gohashid": 239419
+          },
+          {
+            "from": 1620733407447,
+            "to": 1620746215162,
+            "__gohashid": 239436
+          },
+          {
+            "__gohashid": 239446,
+            "from": 1620733675681,
+            "to": 1620733407447
+          },
+          {
+            "from": 1620745278649,
+            "to": 1620745289404,
+            "__gohashid": 239476
+          },
+          {
+            "from": 1620745216796,
+            "to": 1620745278649,
+            "__gohashid": 239494
+          },
+          {
+            "__gohashid": 239504,
+            "from": 1620746243268,
+            "to": 1620745216796
+          },
+          {
+            "from": 1620745309081,
+            "to": 1620940320192,
+            "__gohashid": 239520
+          },
+          {
+            "__gohashid": 239538,
+            "from": 1620745289404,
+            "to": 1621249044442
+          },
+          {
+            "__gohashid": 239548,
+            "from": 1621249044442,
+            "to": 1620745309081
+          },
+          {
+            "__gohashid": 239564,
+            "from": 1620940320192,
+            "to": 1621250248314
+          },
+          {
+            "__gohashid": 239588,
+            "from": 1621250065799,
+            "to": 1621249545118
+          },
+          {
+            "__gohashid": 239599,
+            "from": 1621250248314,
+            "to": 1621250065799
+          },
+          {
+            "__gohashid": 239615,
+            "from": 1621249545118,
+            "to": -84
+          },
+          {
+            "from": -84,
+            "to": 1621250214393,
+            "__gohashid": 239632
+          },
+          {
+            "__gohashid": 239649,
+            "from": 1621250214393,
+            "to": 1621250288949
+          },
+          {
+            "__gohashid": 239673,
+            "from": 1621250288949,
+            "to": 1621250399348
+          },
+          {
+            "from": 1621250399348,
+            "to": 1621250501987,
+            "__gohashid": 239690
+          },
+          {
+            "__gohashid": 239700,
+            "from": 1621250501987,
+            "to": 1621250371147
+          },
+          {
+            "from": -11,
+            "to": -12,
+            "__gohashid": 239724
+          },
+          {
+            "__gohashid": 239742,
+            "from": -10,
+            "to": -11
+          },
+          {
+            "__gohashid": 239759,
+            "from": -12,
+            "to": -13
+          },
+          {
+            "from": -17,
+            "to": -18,
+            "__gohashid": 239783
+          },
+          {
+            "__gohashid": 239801,
+            "from": -16,
+            "to": -17
+          },
+          {
+            "__gohashid": 239818,
+            "from": 1621250371147,
+            "to": -14
+          },
+          {
+            "__gohashid": 239828,
+            "from": -14,
+            "to": -10
+          },
+          {
+            "__gohashid": 239844,
+            "from": -15,
+            "to": -16
+          },
+          {
+            "__gohashid": 239854,
+            "from": -13,
+            "to": -15
+          },
+          {
+            "__gohashid": 239870,
+            "from": -18,
+            "to": 1621251240677
+          },
+          {
+            "__gohashid": 268983,
+            "from": 1620944655887,
+            "to": 1620746185406
+          },
+          {
+            "__gohashid": 281612,
+            "from": 1621251240677,
+            "to": 1620730726659
           }
         ]
       }
