@@ -19021,36 +19021,6 @@
             "__gohashid": 16163
           },
           {
-            "key": 1624792910401,
-            "name": "Listen_2",
-            "type": "listen",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "opt": "",
-            "__gohashid": 16808
-          },
-          {
-            "key": 1624792923201,
-            "name": "Talk_3",
-            "type": "speak",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "text": "Bom dia $",
-            "__gohashid": 16976
-          },
-          {
-            "key": 1624796964562,
-            "name": "Eva_Emotion_4",
-            "type": "emotion",
-            "color": "lightyellow",
-            "isGroup": false,
-            "emotion": "joy",
-            "level": 0,
-            "__gohashid": 788
-          },
-          {
             "key": 1624797098256,
             "name": "Eva_Emotion_5",
             "type": "emotion",
@@ -19061,41 +19031,176 @@
             "__gohashid": 4297
           },
           {
-            "key": 1624792857073,
-            "name": "Talk_1",
+            "key": 1625697313502,
+            "name": "Talk_4",
             "type": "speak",
             "color": "lightblue",
             "isGroup": false,
             "group": "",
-            "text": "Olá, bom dia. Já estou usando a Mêitrix Voice. Qual o seu nome",
-            "__gohashid": 19014
+            "text": "Nossa! Está fazendo muito frio!",
+            "__gohashid": 2094
+          },
+          {
+            "key": 1625697407380,
+            "name": "Talk_5",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Preciso saber qual a temperatura no momento",
+            "__gohashid": 2261
+          },
+          {
+            "key": 1625697439580,
+            "name": "Talk_6",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Vou pedir ajuda aos universitários",
+            "__gohashid": 2478
+          },
+          {
+            "key": 1625697473649,
+            "name": "Talk_7",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Aléquiça! Qual a temperatura?",
+            "__gohashid": 3059
+          },
+          {
+            "key": 1625697613784,
+            "name": "Talk_9",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Obrigado!",
+            "__gohashid": 4150
+          },
+          {
+            "key": 1625697688978,
+            "name": "Talk_11",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Aléquiça! Vai chover hoje?",
+            "__gohashid": 5024
+          },
+          {
+            "key": 1625697742863,
+            "name": "Wait_12",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 4000,
+            "__gohashid": 5535
+          },
+          {
+            "key": 1625697762249,
+            "name": "Talk_13",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Aléquiça! Boa noite!",
+            "__gohashid": 6095
+          },
+          {
+            "key": 1625697580144,
+            "name": "Wait_8",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 9000,
+            "__gohashid": 6859
+          },
+          {
+            "key": 1625697680696,
+            "name": "Wait_10",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 1000,
+            "__gohashid": 7602
+          },
+          {
+            "key": 1625698109155,
+            "name": "Wait_14",
+            "type": "wait",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "time": 6000,
+            "__gohashid": 8210
           }
         ],
         "link": [
           {
-            "__gohashid": 6928,
-            "from": 1624792910401,
-            "to": 1624796964562
-          },
-          {
-            "__gohashid": 8997,
-            "from": 1624796964562,
-            "to": 1624792923201
-          },
-          {
-            "__gohashid": 11344,
+            "__gohashid": 1569,
             "from": 1624797098256,
-            "to": 1624792857073
+            "to": 1625697313502
           },
           {
-            "__gohashid": 16023,
+            "from": 1625697313502,
+            "to": 1625697407380,
+            "__gohashid": 2264
+          },
+          {
+            "from": 1625697407380,
+            "to": 1625697439580,
+            "__gohashid": 2481
+          },
+          {
+            "from": 1625697439580,
+            "to": 1625697473649,
+            "__gohashid": 2747
+          },
+          {
+            "from": 1625697473649,
+            "to": 1625697580144,
+            "__gohashid": 3376
+          },
+          {
+            "from": 1625697580144,
+            "to": 1625697613784,
+            "__gohashid": 3740
+          },
+          {
+            "from": 1625697613784,
+            "to": 1625697680696,
+            "__gohashid": 4565
+          },
+          {
+            "from": 1625697680696,
+            "to": 1625697688978,
+            "__gohashid": 5027
+          },
+          {
+            "from": 1625697688978,
+            "to": 1625697742863,
+            "__gohashid": 5538
+          },
+          {
+            "from": 1625697742863,
+            "to": 1625697762249,
+            "__gohashid": 6098
+          },
+          {
             "from": 1624792842719,
-            "to": 1624797098256
+            "to": 1625698109155,
+            "__gohashid": 8213
           },
           {
-            "__gohashid": 18382,
-            "from": 1624792857073,
-            "to": 1624792910401
+            "__gohashid": 8893,
+            "from": 1625698109155,
+            "to": 1624797098256
           }
         ]
       }
@@ -19129,6 +19234,126 @@
             "from": 1624799102471,
             "to": 1624799131196,
             "__gohashid": 636
+          }
+        ]
+      }
+    },
+    {
+      "_id": "dadb836d-42d4-4e4a-a8b3-d6770b77d66c",
+      "nombre": "Condicao",
+      "data": {
+        "node": [
+          {
+            "key": 1625778996863,
+            "name": "Voice_0",
+            "type": "voice",
+            "color": "lightblue",
+            "isGroup": false,
+            "voice": "pt-BR_IsabelaV3Voice",
+            "__gohashid": 530
+          },
+          {
+            "key": 1625779014516,
+            "name": "Listen_1",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "opt": "",
+            "__gohashid": 662
+          },
+          {
+            "key": 1625779053938,
+            "name": "Condition_2",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "\"azul\"",
+            "opt": 4,
+            "__gohashid": 785
+          },
+          {
+            "key": 1625779074006,
+            "name": "Condition_3",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "\"vermelho\"",
+            "opt": 4,
+            "__gohashid": 952
+          },
+          {
+            "key": 1625779083804,
+            "name": "Condition_4",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "",
+            "opt": 4,
+            "__gohashid": 1173
+          },
+          {
+            "key": 1625779116696,
+            "name": "Talk_5",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "$",
+            "__gohashid": 1490
+          },
+          {
+            "key": 1625779135479,
+            "name": "Talk_6",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "$",
+            "__gohashid": 2986
+          },
+          {
+            "key": 1625779148425,
+            "name": "Talk_7",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "text": "\"Else\"",
+            "__gohashid": 3351
+          }
+        ],
+        "link": [
+          {
+            "from": 1625778996863,
+            "to": 1625779014516,
+            "__gohashid": 664
+          },
+          {
+            "from": 1625779014516,
+            "to": 1625779053938,
+            "__gohashid": 787
+          },
+          {
+            "from": 1625779014516,
+            "to": 1625779074006,
+            "__gohashid": 954
+          },
+          {
+            "from": 1625779014516,
+            "to": 1625779083804,
+            "__gohashid": 1175
+          },
+          {
+            "__gohashid": 1864,
+            "from": 1625779053938,
+            "to": 1625779116696
+          },
+          {
+            "from": 1625779074006,
+            "to": 1625779135479,
+            "__gohashid": 2988
+          },
+          {
+            "__gohashid": 3947,
+            "from": 1625779083804,
+            "to": 1625779148425
           }
         ]
       }
