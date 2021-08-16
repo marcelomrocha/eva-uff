@@ -19529,47 +19529,6 @@
             "__gohashid": 7449
           },
           {
-            "key": 1629070754226,
-            "name": "Listen_15",
-            "type": "listen",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "opt": "",
-            "__gohashid": 13105
-          },
-          {
-            "key": 1629070803161,
-            "name": "Condition_16",
-            "type": "if",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "text": "dois",
-            "opt": 2,
-            "__gohashid": 13670
-          },
-          {
-            "key": 1629070840211,
-            "name": "Talk_17",
-            "type": "speak",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "text": "Voce acertou! Eu pensei no numero dois!",
-            "__gohashid": 14310
-          },
-          {
-            "key": 1629070919854,
-            "name": "Listen_18",
-            "type": "listen",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "opt": "",
-            "__gohashid": 15634
-          },
-          {
             "key": 1629070958653,
             "name": "Condition_19",
             "type": "if",
@@ -19579,26 +19538,6 @@
             "text": "",
             "opt": 4,
             "__gohashid": 16372
-          },
-          {
-            "key": 1629070993692,
-            "name": "Talk_20",
-            "type": "speak",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "text": "Poxa, você errou! Eu pensei no numero dois!",
-            "__gohashid": 17086
-          },
-          {
-            "key": 1629073849511,
-            "name": "Talk_22",
-            "type": "speak",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "text": "Você acertou! Eu pensei exatamente no número três",
-            "__gohashid": 9049
           },
           {
             "key": 1629073864690,
@@ -19612,16 +19551,6 @@
             "__gohashid": 9914
           },
           {
-            "key": 1629073882140,
-            "name": "Talk_24",
-            "type": "speak",
-            "color": "lightblue",
-            "isGroup": false,
-            "group": "",
-            "text": "Infelizmente não foi dessa vez!",
-            "__gohashid": 10833
-          },
-          {
             "key": 1629073807674,
             "name": "Condition_21",
             "type": "if",
@@ -19631,6 +19560,233 @@
             "text": "3",
             "opt": 2,
             "__gohashid": 14153
+          },
+          {
+            "key": 1629070803161,
+            "name": "Condition_16",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "2",
+            "opt": 2,
+            "__gohashid": 2721
+          },
+          {
+            "key": 1629105823765,
+            "name": "Condition_26",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "1",
+            "opt": 2,
+            "__gohashid": 6753
+          },
+          {
+            "key": 1629105885617,
+            "name": "Talk_27",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Muito bom! Você acertou! Eu pensei no número 1",
+            "__gohashid": 7870
+          },
+          {
+            "key": 1629105915137,
+            "name": "Condition_28",
+            "type": "if",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "",
+            "opt": 4,
+            "__gohashid": 9036
+          },
+          {
+            "key": 1629070840211,
+            "name": "Talk_17",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Você acertou! Eu pensei no numero dois!",
+            "__gohashid": 11903
+          },
+          {
+            "key": 1629073849511,
+            "name": "Talk_22",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Nossa! Eu pensei exatamente no número três",
+            "__gohashid": 13168
+          },
+          {
+            "key": 1629106349765,
+            "name": "Audio_30",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-sound1",
+            "wait": true,
+            "__gohashid": 14407
+          },
+          {
+            "key": 1629107962087,
+            "name": "Eva_Emotion_32",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "group": "",
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 31411
+          },
+          {
+            "key": 1629108178752,
+            "name": "Eva_Emotion_33",
+            "type": "emotion",
+            "color": "lightgray",
+            "isGroup": false,
+            "group": "",
+            "emotion": "ini",
+            "level": 0,
+            "__gohashid": 41814
+          },
+          {
+            "key": 1629108413430,
+            "name": "Eva_Emotion_32",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 60220
+          },
+          {
+            "key": 1629108438459,
+            "name": "Eva_Emotion_33",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "emotion": "sad",
+            "level": 0,
+            "__gohashid": 67019
+          },
+          {
+            "key": 1629108463579,
+            "name": "Eva_Emotion_34",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 73952
+          },
+          {
+            "key": 1629108487972,
+            "name": "Eva_Emotion_35",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "emotion": "sad",
+            "level": 0,
+            "__gohashid": 80601
+          },
+          {
+            "key": 1629108505080,
+            "name": "Eva_Emotion_36",
+            "type": "emotion",
+            "color": "lightyellow",
+            "isGroup": false,
+            "emotion": "joy",
+            "level": 0,
+            "__gohashid": 86708
+          },
+          {
+            "key": 1629108547219,
+            "name": "Eva_Emotion_37",
+            "type": "emotion",
+            "color": "lightblue",
+            "isGroup": false,
+            "emotion": "sad",
+            "level": 0,
+            "__gohashid": 101564
+          },
+          {
+            "key": 1629070993692,
+            "name": "Talk_20",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Pôxa, você errou! Eu pensei no numero dois!",
+            "__gohashid": 108870
+          },
+          {
+            "key": 1629106441945,
+            "name": "Audio_31",
+            "type": "sound",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "src": "mario-start2",
+            "wait": true,
+            "__gohashid": 110669
+          },
+          {
+            "key": 1629105931591,
+            "name": "Talk_29",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Xi, não foi dessa vez! Eu pensei no 1",
+            "__gohashid": 112569
+          },
+          {
+            "key": 1629070754226,
+            "name": "Listen_15",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 114319
+          },
+          {
+            "key": 1629070919854,
+            "name": "Listen_18",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 116063
+          },
+          {
+            "key": 1629105808094,
+            "name": "Listen_25",
+            "type": "listen",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "opt": "",
+            "__gohashid": 117807
+          },
+          {
+            "key": 1629073882140,
+            "name": "Talk_24",
+            "type": "speak",
+            "color": "lightblue",
+            "isGroup": false,
+            "group": "",
+            "text": "Infelizmente não foi dessa vez! Eu pensei no número 3",
+            "__gohashid": 119603
           }
         ],
         "link": [
@@ -19648,16 +19804,6 @@
             "__gohashid": 10736,
             "from": 1629066603605,
             "to": 1629067368126
-          },
-          {
-            "from": 1629066713252,
-            "to": 1629070580892,
-            "__gohashid": 2847
-          },
-          {
-            "__gohashid": 3519,
-            "from": 1629070580892,
-            "to": 1629066603605
           },
           {
             "__gohashid": 8226,
@@ -19685,11 +19831,6 @@
             "__gohashid": 13673
           },
           {
-            "from": 1629070803161,
-            "to": 1629070840211,
-            "__gohashid": 14313
-          },
-          {
             "from": 1629067514866,
             "to": 1629070919854,
             "__gohashid": 15637
@@ -19700,19 +19841,9 @@
             "__gohashid": 16375
           },
           {
-            "from": 1629070958653,
-            "to": 1629070993692,
-            "__gohashid": 17089
-          },
-          {
             "from": 1629070919854,
             "to": 1629073807674,
             "__gohashid": 8132
-          },
-          {
-            "from": 1629073807674,
-            "to": 1629073849511,
-            "__gohashid": 9052
           },
           {
             "from": 1629070919854,
@@ -19720,9 +19851,119 @@
             "__gohashid": 9917
           },
           {
+            "from": 1629067412536,
+            "to": 1629105808094,
+            "__gohashid": 5739
+          },
+          {
+            "from": 1629105808094,
+            "to": 1629105823765,
+            "__gohashid": 6756
+          },
+          {
+            "from": 1629105808094,
+            "to": 1629105915137,
+            "__gohashid": 9039
+          },
+          {
+            "__gohashid": 16105,
+            "from": 1629070580892,
+            "to": 1629106349765
+          },
+          {
+            "__gohashid": 26320,
+            "from": 1629070840211,
+            "to": 1629106441945
+          },
+          {
+            "__gohashid": 30564,
+            "from": 1629073849511,
+            "to": 1629106441945
+          },
+          {
+            "__gohashid": 30907,
+            "from": 1629105885617,
+            "to": 1629106441945
+          },
+          {
+            "from": 1629066713252,
+            "to": 1629107962087,
+            "__gohashid": 31414
+          },
+          {
+            "__gohashid": 32848,
+            "from": 1629107962087,
+            "to": 1629070580892
+          },
+          {
+            "from": 1629106349765,
+            "to": 1629108178752,
+            "__gohashid": 41817
+          },
+          {
+            "__gohashid": 43299,
+            "from": 1629108178752,
+            "to": 1629066603605
+          },
+          {
+            "from": 1629070803161,
+            "to": 1629108413430,
+            "__gohashid": 60223
+          },
+          {
+            "__gohashid": 61788,
+            "from": 1629108413430,
+            "to": 1629070840211
+          },
+          {
+            "from": 1629070958653,
+            "to": 1629108438459,
+            "__gohashid": 67022
+          },
+          {
+            "__gohashid": 68596,
+            "from": 1629108438459,
+            "to": 1629070993692
+          },
+          {
+            "from": 1629073807674,
+            "to": 1629108463579,
+            "__gohashid": 73955
+          },
+          {
+            "__gohashid": 75584,
+            "from": 1629108463579,
+            "to": 1629073849511
+          },
+          {
             "from": 1629073864690,
-            "to": 1629073882140,
-            "__gohashid": 10836
+            "to": 1629108487972,
+            "__gohashid": 80604
+          },
+          {
+            "__gohashid": 82274,
+            "from": 1629108487972,
+            "to": 1629073882140
+          },
+          {
+            "__gohashid": 93304,
+            "from": 1629105823765,
+            "to": 1629108505080
+          },
+          {
+            "__gohashid": 97202,
+            "from": 1629108505080,
+            "to": 1629105885617
+          },
+          {
+            "from": 1629105915137,
+            "to": 1629108547219,
+            "__gohashid": 101567
+          },
+          {
+            "__gohashid": 103363,
+            "from": 1629108547219,
+            "to": 1629105931591
           }
         ]
       }

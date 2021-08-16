@@ -17,7 +17,7 @@ module.exports = {
         } else if (element.type === 'light') {
             ProcessLightNode(social, element)
         } else if (element.type === 'random') {
-            await ProcessRandomNode(social, element)
+            ProcessRandomNode(social, element)
         } else if (element.type === 'speak') {
             social.ledsanimstop();
             await ProcessSpeakNode(social, evaId, element);
