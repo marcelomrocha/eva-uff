@@ -110,6 +110,7 @@
                 <button type="button" class="btn btn-info" ng-click="showmodal('wait')">Wait</button>
                 <button type="button" class="btn btn-info" ng-click="showmodal('int')">Interaction</button>
                 <button type="button" class="btn btn-info" ng-click="showmodal('script')">Script</button>
+                <button type="button" class="btn btn-primary" ng-click="showmodal('random')">Random</button>
                 <button type="button" class="btn btn-info" ng-click="showmodal('counter')">Counter</button>
                 <button type="button" class="btn btn-info" ng-click="showmodal('api')">Api Rest</button>
               </div>
@@ -248,6 +249,21 @@
                 </div>
               </div>
               <!-- Modal Tiempo -->
+
+              <!-- Modal Random -->
+              <div class="form-group" ng-show="modal == 'random'">
+                <label class="col-sm-2 control-label">Min.</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control input-sm" ng-model="min"
+                    placeholder="Type an integer">
+                </div>
+                <label class="col-sm-2 control-label">Max.</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control input-sm" ng-model="max"
+                    placeholder="Type another integer">
+                </div>
+              </div>
+              <!-- Modal Random -->
 
               <!-- Modal Ciclo -->
               <div class="form-group" ng-show="modal == 'for'">

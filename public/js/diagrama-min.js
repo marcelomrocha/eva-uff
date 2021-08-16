@@ -89,6 +89,10 @@ function init(){
                                                     o="Voice: "+e.voice;
                                                 break;
                                                 
+                                                case "random":
+                                                    o="Min.: " + e.min + "\nMax.: " + e.max;
+                                                break;
+
                                                 case"counter":
                                                     o="Counter: "+e.count+"\nValor: "+e.value}return o}))))}),
                                                 

@@ -5,7 +5,7 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
   $scope.accion = 'Agregar';
   $scope.icon = true;
   $scope.updateid;
-  var modalname = { emotion: 'Eva_Emotion', speak: 'Talk', listen: 'Listen', user_emotion: 'User_Emotion', wait: 'Wait', for: 'Loop', if: 'Condition', mov: 'Motion', int: 'Interaction', script: 'Script', sound: 'Audio', light: "Light", led: 'Animation_Led', voice: 'Voice', counter: 'Counter', api: 'Api Rest' };
+  var modalname = { emotion: 'Eva_Emotion', speak: 'Talk', listen: 'Listen', user_emotion: 'User_Emotion', wait: 'Wait', for: 'Loop', if: 'Condition', mov: 'Motion', int: 'Interaction', script: 'Script', sound: 'Audio', light: "Light", led: 'Animation_Led', voice: 'Voice', random: 'Random', counter: 'Counter', api: 'Api Rest' };
   var color = { joy: "lightyellow", sad: "lightblue", surprised: "lightgreen", anger: "lightcoral", ini: "lightgray" };
 
   $scope.list = function () {
@@ -222,6 +222,10 @@ eva.controller('interaccion', ['$scope', '$http', function ($scope, $http) {
       case "voice":
         node.push(Object.assign(tempobj, { voice: $scope.voice }));
         break;
+//meu codigo
+      case "random":
+          node.push(Object.assign(tempobj, { min: $scope.min, max: $scope.max }));
+          break;
       case "counter":
         node.push(Object.assign(tempobj, { count: ($scope.cnname === '' ? $scope.cname : $scope.cnname), ops: $scope.ops, value: $scope.vcounter }));
         break;

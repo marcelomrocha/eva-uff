@@ -16,6 +16,8 @@ module.exports = {
             ProcessVisionNode(social)
         } else if (element.type === 'light') {
             ProcessLightNode(social, element)
+        } else if (element.type === 'random') {
+            await ProcessRandomNode(social, element)
         } else if (element.type === 'speak') {
             social.ledsanimstop();
             await ProcessSpeakNode(social, evaId, element);
@@ -71,6 +73,11 @@ function ProcessEmotionNode(social, element) {
 // processing light ******************************************
 function ProcessLightNode(social, element) {
     social.light(element.lcolor, element.state);
+}
+
+// processing random ******************************************
+function ProcessRandomNode(social, element) {
+    social.random(element.min, element.max);
 }
 
 // processing vision ******************************************

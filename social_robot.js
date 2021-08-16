@@ -356,13 +356,21 @@ class SocialRobot {
         break;
       case 'on':
         // light on
-        client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 2000]}\r\n');
+        client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 100]}\r\n');
         // seleciona a cor determinada (converte de hex para dec)
-        client_lampada.write('{"id":1,"method":"set_rgb","params":[' + parseInt(lcolor.substr(1), 16) + ', "smooth", 2000]}\r\n');
+        client_lampada.write('{"id":1,"method":"set_rgb","params":[' + parseInt(lcolor.substr(1), 16) + ', "smooth", 100]}\r\n');
         break;
     }
   }
 // -----------------------------------------------------------------
+
+// ----------  Metodo para geracao de numeros aleatorios - Meu codigo -------------
+random(min, max){
+  // retorna um valor aleatorio entre min (inclusive) e max (inclusive)
+  var rand_number = Math.floor(Math.random() * (max + 1 - min) + min);
+  console.log("----------- Numero gerado: => " + rand_number.toString());
+  app.setRespuesta(rand_number.toString()); // coloca o valor global
+}
 
 // ----------  Metodo para reconhecer expressoes - Meu codigo -------------
 vision(){
