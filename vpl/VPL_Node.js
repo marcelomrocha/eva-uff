@@ -8,6 +8,7 @@ var app = require('../app');
 
 module.exports = {
     ProcessNode: async function (social, evaId, usuarioId, element) {
+        console.log(element.key);
         if (element.type === 'voice') {
             social.setVoice(element.voice);
         } else if (element.type === 'emotion') {
