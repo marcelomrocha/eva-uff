@@ -3,23 +3,42 @@
 // ------------------------------------------ cliente para lampada xiaomi
 var net = require('net');
 var client_lampada = new net.Socket();
-//192.168.1.105 (ip fixo connfigurado no rotedor) 55443 IP e Porta da lampada
-client_lampada.connect(55443, '192.168.1.105', function() {
-	console.log('Lampada conectada');
+// read the smart bulb config from file: smart_bulb_config.txt
+const conf_fs = require('fs');
+var config = "";
+try {
+    var filename = "smart_bulb_config.txt"
+    // read contents of the file
+    const data = conf_fs.readFileSync(filename, 'UTF-8');
+
+    // split the contents by new line
+    config = data.split(/\r?\n/);
+
+    // config[0] has the bulb's ip
+    // config[1] has the bulb's port
+
+} catch (err) {
+    console.error(err);
+}
+
+//192.168.1.105 (ip fixo configurado no rotedor) 55443 IP e Porta da lampada
+client_lampada.connect(config[1], config[0], function() {
+  console.log('\n# Smart Bulb Connected at IP:' + config[0] + ' and PORT:' + config[1]);
   // liga lampada
   //client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 1000]}\r\n');
-	// seta para cor branca
-	//client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
+  // seta para cor branca
+  //client_lampada.write('{"id":1,"method":"set_rgb","params":[16777215, "smooth", 1000]}\r\n');
 });
 
 client_lampada.on('data', function(data) {
-	console.log('Lampada respondendo: ' + data);
+  console.log('Lampada respondendo: ' + data);
 });
 
 client_lampada.on('close', function() {
-	console.log('Connection closed');
-	client_lampada.destroy(); // kill client after server's response
+  console.log('Connection closed');
+  client_lampada.destroy(); // kill client after server's response
 });
+
 // ---------------------------------------------------------------------------
 
 
