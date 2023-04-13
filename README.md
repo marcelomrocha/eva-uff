@@ -47,7 +47,7 @@ sudo reboot
 ```
 
 ### Instalação das dependências da aplicação apontadas no arquivo package.json
-### Rodar o comando a seguir na pasta do software do EVA
+### Rodar o comando a seguir na pasta do software do EVA 
 
 ```bash
 npm install
