@@ -46,7 +46,9 @@ sudo apt install matrixio-kernel-modules
 sudo reboot
 ```
 
-### Dependencias de la aplicación
+### Instalação das dependências da aplicação apontadas no arquivo package.json
+### Rodar o comando a seguir na pasta do software do EVA
+
 ```bash
 npm install
 ```
