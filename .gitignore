@@ -111,4 +111,4 @@ temp/*
 
 credencial.json
 
-public/js/go.js
+# public/js/go.js

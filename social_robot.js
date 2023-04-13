@@ -23,7 +23,7 @@ try {
 
 //192.168.1.105 (ip fixo configurado no rotedor) 55443 IP e Porta da lampada
 client_lampada.connect(config[1], config[0], function() {
-  console.log('\n# Smart Bulb Connected at IP:' + config[0] + ' and PORT:' + config[1]);
+  console.log('\n# Smart Bulb Connected. IP:' + config[0] + ' and PORT:' + config[1]);
   // liga lampada
   //client_lampada.write('{"id":1, "method":"set_power","params":["on", "smooth", 1000]}\r\n');
   // seta para cor branca
@@ -39,7 +39,7 @@ client_lampada.on('close', function() {
   client_lampada.destroy(); // kill client after server's response
 });
 
-// ---------------------------------------------------------------------------
+ // ---------------------------------------------------------------------------
 
 
 /* Cognitive services modules */
@@ -417,6 +417,7 @@ vision(){
     }
 
     var json = { anim: emotion, bcolor: '', speed: (speed || 2.0) };
+    console.log("enviando para display", json);
     send.eyes(json);
     switch (emotion) {
       case 'ini':
