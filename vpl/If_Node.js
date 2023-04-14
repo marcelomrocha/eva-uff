@@ -75,6 +75,7 @@ function MathComparison(token, pos) {
     let value1 = parseInt(token[pos - 1].value);
     let value2 = parseInt(token[pos + 1].value);
     if (token[pos].value === 'equal') {
+        console.log("not");
         return value1 == value2;
     } else if (token[pos].value === 'greater') {
         return value1 > value2;
@@ -85,6 +86,7 @@ function MathComparison(token, pos) {
     } else if (token[pos].value === 'lessor') {
         return value1 <= value2;
     } else if (token[pos].value === 'notequal') {
+        console.log("not");
         return value1 != value2;
     }
 }

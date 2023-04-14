@@ -249,7 +249,6 @@ index.get('/interaccion/audio', async function (req, res) {
 
 index.get('/interaccion/iniciarInteracciong', async function (req, res) {
 	res.status(200).jsonp();
-	
 	respuesta = [];
 	counter = {};
 

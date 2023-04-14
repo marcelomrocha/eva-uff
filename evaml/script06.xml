@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- voz portugues: pt-BR_IsabelaV3Voice -->
+<!-- voz portugues: en-US_AllisonV3Voice" -->
+<evaml name="script06">
+	<settings>
+		<voice tone="pt-BR_IsabelaV3Voice" />
+		<light-effects mode="on" />
+		<audio-effects mode="on" vol="100%" />
+	</settings>
+  <script>
+		<light id="INICIO" state="on" color="white" />
+		<talk>Olá, eu vou contar de um a três usando um contador</talk>
+		<counter var="x" op="=" value="0"  />
+		<counter id="SOMA1" var="x" op="+" value="1" />
+		<talk>O valor de x é #x</talk>
+		<switch var="x">
+			<case op="eq" value="1">
+				<light state="on" color="blue" />
+				<wait duration="2000" />
+				<goto target="SOMA1" />
+			</case>
+			<case op="eq" value="2">
+				<light state="on" color="green" />
+				<wait duration="2000" />
+				<goto target="SOMA1" />
+			</case>
+			<case op="eq" value="3">
+				<light state="on" color="pink" />
+				<wait duration="2000" />
+			</case>
+		</switch>
+		<talk>Um abraço</talk>
+	</script>
+  <macros>
+  </macros>
+</evaml>
